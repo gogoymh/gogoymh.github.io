@@ -38,12 +38,12 @@
 html,
 body {
   overflow-x: hidden;
-  /*background-image: url(../bak.svg);
-  background-position: center;*/
+  background-image: url(../bak.svg);
+  background-position: center;
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "ffad_matroregular","PT Serif", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {

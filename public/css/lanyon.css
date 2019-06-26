@@ -38,6 +38,8 @@
 html,
 body {
   overflow-x: hidden;
+  /*background-image: url(../bak.svg);
+  background-position: center;*/
 }
 
 html {

@@ -5,8 +5,8 @@ permalink:           pretty
 #relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
+title:               변경민의 LOWIL
+tagline:             'List Of What I Learned'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
@@ -14,9 +14,9 @@ paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Byun Kyung Min
+  url:               https://facebook.com/bkm.change.min
+  email:             bkm.change.min@gmail.com
 
 # Custom vars
 version:             1.0.0

@@ -43,7 +43,7 @@ body {
 }
 
 html {
-  font-family: "ffad_matroregular","PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -319,6 +319,7 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   color: #303030;
+  font-family: 'Song Myung';
 }
 .page-title,
 .post-title {

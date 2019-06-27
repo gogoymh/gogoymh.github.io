@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: <i class="fas fa-info-circle"></i>About
 ---
 
 <p class="message">

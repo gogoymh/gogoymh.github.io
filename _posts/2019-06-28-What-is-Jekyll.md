@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Github로 블로그만들기(1)::Jekyll의 동작방식
+title: Github로 블로그만들기(1)-Jekyll의 동작방식
 ---
 
 ## 들어가며 

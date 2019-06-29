@@ -53,7 +53,7 @@ title: About
 <h2 style="text-align:center">Byun Kyung Min</h2>
 
 <div class="card">
-  <img src="/public/images/profile/profile(3).jpg" alt="profile" style="width:100%">
+  <img src="https://avatars3.githubusercontent.com/u/28175067?s=460&v=4" alt="profile" style="width:100%">
   <a href="http://dimigo.hs.kr" target="_blank"><img src="/public/images/profile/dimigo_logo_white.png" alt="dimigo-logo" style="width:80%;margin: 0px auto;"></a>
   <h1>변경민</h1>
   <p class="title">이것저것</p>

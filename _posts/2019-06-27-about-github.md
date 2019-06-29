@@ -2,7 +2,7 @@
 layout: post
 title: 깃허브 사용법!(git설치와 간단한 명령어)
 ---
-### 깃허브를 사용하는 이유
+## 깃허브를 사용하는 이유
 깃허브는 개발자들의 Facebook이다. 서로의 코드를 공유하고, 좋아요(star)를 표시하며, 다른 사용자의 코드를 공유하는 등의 활동을 할 수 있다. 
 
 내가 생각하는 Github의 가장 장점은 변화를 효과적으로 기록할 수 있다는 것이다. 몇 라인의 코드를 추가했는지, 언제 코드를 작성했는지를 잘 보여준다.
@@ -13,7 +13,7 @@ title: 깃허브 사용법!(git설치와 간단한 명령어)
 위는 필자의 Github Page이다. [나의 Github Page](http://github.com/Changemin)
 
 - - -
-### Git bash 설치하기 
+## Git bash 설치하기 
 Git bash는 git을 사용하기 위한 툴이다.
 
 1. > ![install-git(1)](/public/images/post.2019-06-27/install-git(1).PNG)
@@ -45,7 +45,7 @@ Enable file system caching, Enable Git Credential Manager chech -> Next
 다음과 같이 준비가 설치가 되었다! *git --version*명령어를 통해 버전을 확인할 수 있다. 
 - - -
 
-### **Git 명령어 모음**
+## **Git 명령어 모음**
 > **git init**
 
 * git init은 자신의 계정에 새로운 저장소를 만들고 초기화한다. 

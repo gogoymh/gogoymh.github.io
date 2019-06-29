@@ -5,7 +5,7 @@ title: Github로 블로그만들기(3)-Jekyll예제 블로그 만들기!
 이전 포스트[『Github로 블로그만들기(2)-Jekyll개발환경을 만들자!』](https://changemin.github.io/2019/06/29/install-jekyll/) 에서 구축한 개발환경을 통해 Jekyll 예제 파일을 만들어보자!
 # jekyll 예제 파일 만들기
 1. > ![jekyll-sample(1)](/../public/images/post.2019-06-30/jekyll-sample(1).PNG)자신이 Jekyll예제 파일을 만들고자 하는 곳에 cmd를 통해 들어간다.(Git bash로도 가능하다)<br /><strong class ="highlight-red">※cmd 창에서 cd [파일경로] (ex.cd Desktop)을 입력하면 그 경로로 진입할 수 있다.<strong>
-2. > ![jekyll-sample(2)](/../public/images/post.2019-06-30/jekyll-sample(2).PNG)sample을 만들고자 하는 경로에 <strong class ="highlight-yellow">jekyll new [jekyll샘플이름]</strong>을 입력한다. 나는 파일명을 myblog라고 해두었다.
+2. > ![jekyll-sample(2)](/../public/images/post.2019-06-30/jekyll-sample(2).PNG)sample을 만들고자 하는 경로에 <strong class ="highlight-yellow">jekyll new [jekyll샘플이름]</strong>을 입력한다. 나는 새로운 Jekyll블로그를 myblog라고 해두었다.
 
 3. > ![jekyll-sample(3)](/../public/images/post.2019-06-30/jekyll-sample(3).PNG)바탕화면의 *myblog*파일에 들어가면 <i class ="highlight-red">_posts, _config, about.md</i>등의 파일을 확인할 수 있다.
 

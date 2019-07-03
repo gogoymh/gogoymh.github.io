@@ -3,7 +3,8 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
 #relative_permalinks: true
-
+collections:
+  projects:
 # Setup
 title:               변경민의 LOWIL
 tagline:             'List Of What I Learned'

@@ -1,17 +1,17 @@
 ---
-layout: page
-title: Posts
+layout: default
+permalink: archives/
 ---
-<div>
-  <ul class="posts" style="font-size: 25px">
-    {% for post in site.posts %}
-      {% assign post_date = post.date | date: "%Y년 %m월 %d일" %}
-      {% capture post_url %} {{ site.baseurl }}{{ post.url }} {% endcapture %}
-      <li style="font-family: 'Gugi', sans-serif;">
-	    <span class="entry-date">{{ post_date }}<br>
-	    <a href="{{ post_url }}">{{ post.title }}</a></span>
-	    </li>
-      <br />
-      {% endfor %}
-  </ul>
-</div>
+<h1>archives</h1>
+<ul>
+  {% for archive in year.items %}
+    <li>
+      <h3>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ archive.title }}
+          <small>{{ archive.date | date: "%Y년 %m월 %d일" }}</small>
+        </a>
+      </h3>
+    </li>
+  {% endfor %}
+</ul>

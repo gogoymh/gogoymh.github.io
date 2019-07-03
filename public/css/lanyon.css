@@ -367,6 +367,9 @@ a.sidebar-nav-item:focus {
 .highlight-blue{
   background-color: #71BCF4;
 }
+.highlight-green{
+  background-color: #50C878;
+}
 
 /*
  * Pagination

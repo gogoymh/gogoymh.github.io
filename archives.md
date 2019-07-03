@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archives
+title: Posts
 ---
 <div>
   <ul class="posts" style="font-size: 25px">

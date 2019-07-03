@@ -9,7 +9,7 @@ title: Github로 블로그만들기(3)-Jekyll예제 블로그 만들기!
 
 3. > ![jekyll-sample(3)](/../public/images/post.2019-06-29/jekyll-sample(3).PNG)바탕화면의 *myblog*파일에 들어가면 <i class ="highlight-red">_posts, _config, about.md</i>등의 파일을 확인할 수 있다.
 
-4. > ![jekyll-sample(4)](/../public/images/post.2019-06-29/jekyll-sample(4).PNG)그 후 다시 콘솔창에 가서 <strong class ="highlight-yellow">jekyll serve</strong>를 입력하게 되면, <strong class ="highlight-blue">http://127.0.0.1:4000/</strong>의 주소를 주게 되는데, 이것은 내 컴퓨터 Local에서 Jekyll의 사이트를 확인할 수 있다. Jekyll파일에 수정사항이 생겼을 때는 *F5*로 새로고침을 해서 수정사항을 확인할 수 있다.
+4. > ![jekyll-sample(4)](/../public/images/post.2019-06-29/jekyll-sample(4).PNG)그 후 다시 콘솔창에 가서 <strong class ="highlight-yellow">jekyll serve</strong>를 입력하게 되면, <strong class ="highlight-blue">http://127.0.0.1:4000/</strong>의 주소를 부여받게 된다. 이는 Local에서 Jekyll의 사이트를 확인할 수 있는 주소이다. Jekyll파일에 수정사항이 생겼을 때는 *F5*로 새로고침을 해서 수정사항을 확인할 수 있다.
 
 5. > ![jekyll-sample(5)](/../public/images/post.2019-06-29/jekyll-sample(5).PNG)다음과 같은 예제 사이트를 만든 것을 확인할 수 있다. 
 

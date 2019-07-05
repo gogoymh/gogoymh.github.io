@@ -9,10 +9,10 @@ title: Github로 블로그만들기(6)-포스트 작성하고, 업로드하기!
 > [Github로 블로그만들기(4)-Jekyll테마 Github에 적용시키기!](https://changemin.github.io/2019/06/29/(4)apply-jekyll-theme/)<br />
 > [Github로 블로그만들기(5)-템플릿 커스터마이징하기!](https://changemin.github.io/2019/06/29/(5)custom-jekyll/)<br />
 
-5개의 이전 포스팅들의 대미를 장식할 Jekyll 블로그 튜토리얼에 관한 마지막 포스트이다. 
+5개의 이전 포스팅들의 대미를 장식할 Jekyll 블로그 튜토리얼에 관한 마지막 포스트이다.
 
 1. > ![posting(1)](/../public/images/post.2019-06-29/posting(1).PNG)다음과 같이 자신의 지킬 파일경로에 진입해서 <strong class="highlight-yellow">bundle exec jekyll serve</strong>명령어를 통해 jekyll파일을 local에서 실행시켜 본다. 
-2. > ![posting(2)](/../public/images/post.2019-06-29/posting(2).PNG)jekyll들의 파일들을 살펴보면 <strong class="highlight-yellow">_posts</strong>라는 이름의 폴더가 존재한다. 이 폴더 안에 새로운 포스트 파일을 만들어서 작성하면 된다. 나는 "2019-06-29-first.md"라는 마크다운 파일을 만들었다. ~~참 쉽죠잉~~<i class = "highlight-red">※여기서 주의해야 하는 것이 있다. 파일 이름은 <strong class="highlight-green">[년도-월-일-포스트이름.md]</strong>의 형식을 지켜주어야한다.</i>
+2. > ![posting(2)](/../public/images/post.2019-06-29/posting(2).PNG)jekyll들의 파일들을 살펴보면 <strong class="highlight-yellow">_posts</strong>라는 이름의 폴더가 존재한다. 이 폴더 안에 새로운 포스트 파일을 만들어서 작성하면 된다. 나는 "2019-06-29-first.md"라는 마크다운 파일을 만들었다. ~~참 쉽죠잉~~<strong class = "highlight-red">※여기서 주의해야 하는 것이 있다. 파일 이름은 <strong class="highlight-green">[년도-월-일-포스트이름.md]</strong>의 형식을 지켜주어야한다.</strong>
 3. > ![posting(3)](/../public/images/post.2019-06-29/posting(3).PNG) 포스팅 마크다운 파일을 만들때는 다음과 같은 형식을 지켜주어야 한다. 
 >> <code>--- <br />layout: post<br />title: 제목<br /> ---</code>
 

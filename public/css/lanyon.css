@@ -328,7 +328,7 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   color: #303030;
-  font-family: 'Monoton', 'Song Myung';
+  font-family: 'Song Myung';
 }
 .page-title,
 .post-title {
@@ -646,25 +646,31 @@ a.pagination-item:hover {
           .achieve > li > .achieve-panel:before {
               position: absolute;
               top: 26px;
-              right: -15px;
+              left: -15px;
               display: inline-block;
               border-top: 15px solid transparent;
               border-left: 15px solid #ccc;
               border-right: 0 solid #ccc;
               border-bottom: 15px solid transparent;
               content: " ";
+              border-left-width: 0;
+              border-right-width: 15px;
+              right: auto;
           }
 
           .achieve > li > .achieve-panel:after {
               position: absolute;
               top: 27px;
-              right: -14px;
+              left: -14px;
+              right: auto;
               display: inline-block;
               border-top: 14px solid transparent;
-              border-left: 14px solid #fff;
+              border-left: 0;
               border-right: 0 solid #fff;
+              border-right-width: 14px;
               border-bottom: 14px solid transparent;
-              content: " ";
+              content: "";
+
           }
 
 .achieve-title {
@@ -688,6 +694,9 @@ a.pagination-item:hover {
 .achieve-body > p,
 .achieve-body > ul {
   margin-bottom: 0;
+}
+.achieve-panel{
+  background-color: white;
 }
   .achieve-body > p + p {
       margin-top: 5px;
@@ -734,5 +743,36 @@ a.pagination-item:hover {
     margin: 0px 0px 20px 0px;
     float: left;
   }
+  .book-info{
+    float: bottom;
+    width: 90%;
+    font-size: 0.7rem;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  }
+  p > .book-review{
+    font-family:'Hi Melody', cursive;
+    font-size:15px;
+  }
 }
-
+  
+}
+.book-info{
+  float: right;
+  width: 50%;
+  font-size: 0.7rem;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.book-img{
+  margin: 0px;
+}
+.book-review{
+  font-family:'Hi Melody', cursive;
+  font-weight: bold;
+  font-size:27px;
+}

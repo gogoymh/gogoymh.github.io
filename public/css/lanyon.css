@@ -99,12 +99,16 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 1px solid #eee;
+
+
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  position: fixed;
+  width: auto;
+  background-color: #cfcfcfd3;
 }
 .masthead-title a {
   color: #505050;
@@ -312,6 +316,15 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
+
+}
+.page-topbar{
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  top: 0;
 }
 
 /* Blog post or page title */

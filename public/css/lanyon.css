@@ -99,7 +99,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 2px solid #eee;
+
 }
 .masthead-title {
   margin-top: 0;
@@ -312,6 +313,14 @@ a.sidebar-nav-item:focus {
 .page,
 .post {
   margin-bottom: 4em;
+
+}
+.page-topbar{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  top: 0;
 }
 
 /* Blog post or page title */

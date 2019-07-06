@@ -593,6 +593,7 @@ a.pagination-item:hover {
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
+  color: black;
 }
 
   .achieve:before {
@@ -690,6 +691,13 @@ a.pagination-item:hover {
   color: inherit;
 }
 
+.achieve-date{
+  font-size: 0.8rem;
+}
+
+.achieve-location{
+  color: rgb(90, 90, 90);
+}
 .achieve-body > p,
 .achieve-body > ul {
   margin-bottom: 0;

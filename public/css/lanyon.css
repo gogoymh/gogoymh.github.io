@@ -575,3 +575,154 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+/*acheive*/
+.achieve{
+  list-style: none;
+}
+.achieve-container {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+  .achieve:before {
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      content: " ";
+      width: 3px;
+      background-color: #eeeeee;
+      left: 50%;
+      margin-left: -1.5px;
+  }
+
+  .achieve > li {
+      margin-bottom: 20px;
+      position: relative;
+  }
+
+      .achieve > li:before,
+      .achieve > li:after {
+          content: " ";
+          display: table;
+      }
+
+      .achieve > li:after {
+          clear: both;
+      }
+
+      .achieve > li:before,
+      .achieve > li:after {
+          content: " ";
+          display: table;
+      }
+
+      .achieve > li:after {
+          clear: both;
+      }
+
+      .achieve > li > .achieve-panel {
+          width: 46%;
+          float: left;
+          border: 1px solid #d4d4d4;
+          border-radius: 2px;
+          padding: 20px;
+          position: relative;
+          -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+      }
+
+          .achieve > li > .achieve-panel:before {
+              position: absolute;
+              top: 26px;
+              right: -15px;
+              display: inline-block;
+              border-top: 15px solid transparent;
+              border-left: 15px solid #ccc;
+              border-right: 0 solid #ccc;
+              border-bottom: 15px solid transparent;
+              content: " ";
+          }
+
+          .achieve > li > .achieve-panel:after {
+              position: absolute;
+              top: 27px;
+              right: -14px;
+              display: inline-block;
+              border-top: 14px solid transparent;
+              border-left: 14px solid #fff;
+              border-right: 0 solid #fff;
+              border-bottom: 14px solid transparent;
+              content: " ";
+          }
+
+      .achieve > li.achieve-inverted > .achieve-panel {
+          float: right;
+      }
+
+          .achieve > li.achieve-inverted > .achieve-panel:before {
+              border-left-width: 0;
+              border-right-width: 15px;
+              left: -15px;
+              right: auto;
+          }
+
+          .achieve > li.achieve-inverted > .achieve-panel:after {
+              border-left-width: 0;
+              border-right-width: 14px;
+              left: -14px;
+              right: auto;
+          }
+
+
+.achieve-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+.achieve-body > p,
+.achieve-body > ul {
+  margin-bottom: 0;
+}
+
+  .achieve-body > p + p {
+      margin-top: 5px;
+  }
+
+@media (max-width: 767px) {
+  ul.achieve:before {
+      left: 40px;
+  }
+
+  ul.achieve > li > .achieve-panel {
+      width: calc(100% - 90px);
+      width: -moz-calc(100% - 90px);
+      width: -webkit-calc(100% - 90px);
+  }
+
+  ul.achieve > li > .achieve-badge {
+      left: 15px;
+      margin-left: 0;
+      top: 16px;
+  }
+
+  ul.achieve > li > .achieve-panel {
+      float: right;
+  }
+
+      ul.achieve > li > .achieve-panel:before {
+          border-left-width: 0;
+          border-right-width: 15px;
+          left: -15px;
+          right: auto;
+      }
+
+      ul.achieve > li > .achieve-panel:after {
+          border-left-width: 0;
+          border-right-width: 14px;
+          left: -14px;
+          right: auto;
+      }
+}
+

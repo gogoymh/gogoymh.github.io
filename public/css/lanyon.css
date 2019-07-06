@@ -328,7 +328,7 @@ a.sidebar-nav-item:focus {
 .post-title,
 .post-title a {
   color: #303030;
-  font-family: 'Song Myung';
+  font-family: 'Monoton', 'Song Myung';
 }
 .page-title,
 .post-title {
@@ -600,10 +600,10 @@ a.pagination-item:hover {
       top: 0;
       bottom: 0;
       position: absolute;
-      content: " ";
+      content: "";
       width: 3px;
       background-color: #eeeeee;
-      left: 50%;
+      left: -5%;
       margin-left: -1.5px;
   }
 
@@ -633,7 +633,7 @@ a.pagination-item:hover {
       }
 
       .achieve > li > .achieve-panel {
-          width: 46%;
+          width: 100%;
           float: left;
           border: 1px solid #d4d4d4;
           border-radius: 2px;
@@ -667,25 +667,6 @@ a.pagination-item:hover {
               content: " ";
           }
 
-      .achieve > li.achieve-inverted > .achieve-panel {
-          float: right;
-      }
-
-          .achieve > li.achieve-inverted > .achieve-panel:before {
-              border-left-width: 0;
-              border-right-width: 15px;
-              left: -15px;
-              right: auto;
-          }
-
-          .achieve > li.achieve-inverted > .achieve-panel:after {
-              border-left-width: 0;
-              border-right-width: 14px;
-              left: -14px;
-              right: auto;
-          }
-
-
 .achieve-title {
   margin-top: 0;
   color: inherit;
@@ -695,6 +676,12 @@ a.pagination-item:hover {
   font-size: 0.8rem;
 }
 
+.achieve-img{
+  border-radius: 9px;
+  width: 50%;
+  margin: 0px 20px 0px 0px;
+  float: left;
+}
 .achieve-location{
   color: rgb(90, 90, 90);
 }
@@ -702,14 +689,13 @@ a.pagination-item:hover {
 .achieve-body > ul {
   margin-bottom: 0;
 }
-
   .achieve-body > p + p {
       margin-top: 5px;
   }
 
 @media (max-width: 767px) {
   ul.achieve:before {
-      left: 40px;
+      left: 5%;
   }
 
   ul.achieve > li > .achieve-panel {
@@ -726,6 +712,7 @@ a.pagination-item:hover {
 
   ul.achieve > li > .achieve-panel {
       float: right;
+      width: 95%;
   }
 
       ul.achieve > li > .achieve-panel:before {
@@ -741,5 +728,11 @@ a.pagination-item:hover {
           left: -14px;
           right: auto;
       }
+  .achieve-img{
+    border-radius: 9px;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    float: left;
+  }
 }
 

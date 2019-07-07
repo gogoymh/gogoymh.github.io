@@ -8,7 +8,7 @@ collections:
 # Setup
 title:               변경민의 LOWIL
 tagline:             'List Of What I Learned'
-description:         'Made by <a href="https://github.com/changemin" target="_blank">@Byun Kyung Min</a>.<br />한국디지털미디어고등학교 18기 웹프로그래밍과 변경민'
+description:         'Made by <a href="https://github.com/changemin" target="_blank" style="font-size=0.75rem;">@Byun Kyung Min</a>.<br />한국디지털미디어고등학교 18기 웹프로그래밍과 변경민'
 github-url:           http://github.com/Changemin
 baseurl:             ''
 plugins:             [jekyll-paginate]

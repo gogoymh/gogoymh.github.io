@@ -52,8 +52,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #313131;
   letter-spacing: -.025rem;
 }
-
-
+a{
+  font-size: 1.2rem;
+}
+.post-link{
+  font-size: 2rem;
+}
 /*
  * Wrapper
  *
@@ -184,6 +188,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
+  font-size: 0.8rem;
 }
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
@@ -329,6 +334,18 @@ a.sidebar-nav-item:focus {
 .post-title a {
   color: #303030;
   font-family: 'Song Myung';
+}
+@media (max-width: 767px) {
+  .page-title,
+  .post-title,
+  .post-title a {
+    color: #303030;
+    font-family: 'Song Myung';
+    font-size: 2rem;
+  }
+  .post-link{
+    font-size: 0.5rem;
+  }
 }
 .page-title,
 .post-title {
@@ -681,15 +698,19 @@ a.pagination-item:hover {
 .achieve-date{
   font-size: 0.8rem;
 }
-
+.achieve-info{
+  text-align: right;
+}
 .achieve-img{
   border-radius: 9px;
-  width: 50%;
+  width: 40%;
   margin: 0px 20px 0px 0px;
   float: left;
 }
-.achieve-location{
+.achieve-location,
+.achieve-team{
   color: rgb(90, 90, 90);
+  font-size: 0.7rem;
 }
 .achieve-body > p,
 .achieve-body > ul {
@@ -712,13 +733,6 @@ a.pagination-item:hover {
       width: -moz-calc(100% - 90px);
       width: -webkit-calc(100% - 90px);
   }
-
-  ul.achieve > li > .achieve-badge {
-      left: 15px;
-      margin-left: 0;
-      top: 16px;
-  }
-
   ul.achieve > li > .achieve-panel {
       float: right;
       width: 95%;
@@ -743,21 +757,9 @@ a.pagination-item:hover {
       margin: 0px 0px 20px 0px;
       float: left;
     }
-    .book-info{
-      float: bottom;
-      width: 90%;
-      font-size: 0.7rem;
-      background-color: #eee;
-      padding: 10px;
-      border-radius: 9px;
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    }
-    p > .book-review{
-      font-family:'Hi Melody', cursive;
-      font-size:15px;
-    }
 }
 
+/*book review*/
 .book-info{
   float: right;
   width: 50%;
@@ -774,6 +776,21 @@ a.pagination-item:hover {
   font-family:'Hi Melody', cursive;
   font-weight: bold;
   font-size:27px;
+}
+@media (max-width: 767px) {
+  .book-info{
+    float: bottom;
+    width: 100%;
+    font-size: 0.7rem;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 9px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  }
+  p > .book-review{
+    font-family:'Hi Melody', cursive;
+    font-size:15px;
+  }
 }
 /*profile*/
 

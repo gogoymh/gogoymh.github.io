@@ -10,10 +10,14 @@ title: Achieves
     <li class="achieve-item">
       <div class="achieve-panel">
         <div class ="achieve-heading">
-        <img src="{{ achieve.thumbnail }}" class="achieve-img">
+        <div><img src="{{ achieve.thumbnail }}" class="achieve-img"></div>
           <h3 href="{{ post_url }}" class="achieve-title">{{ achieve.title }}</h3>
           <p class="achieve-date">{{ achieve_date }}</p>
-          <small class="achieve-location">장소 : {{ achieve.location }}</small>
+          <hr class="achieve-divider"/>
+          <div class="achieve-info">
+            <p class="achieve-location">장소 : {{ achieve.location }}</p>
+            <p class ="achieve-team">팀명(멤버) : {{ achieve.teamname }}({{ achieve.member }})</p>
+          </div>
         </div>
       </div>
     </li>

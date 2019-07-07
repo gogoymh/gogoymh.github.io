@@ -737,27 +737,27 @@ a.pagination-item:hover {
           left: -14px;
           right: auto;
       }
-  .achieve-img{
-    border-radius: 9px;
-    width: 100%;
-    margin: 0px 0px 20px 0px;
-    float: left;
-  }
-  .book-info{
-    float: bottom;
-    width: 90%;
-    font-size: 0.7rem;
-    background-color: #eee;
-    padding: 10px;
-    border-radius: 9px;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-  }
-  p > .book-review{
-    font-family:'Hi Melody', cursive;
-    font-size:15px;
-  }
+    .achieve-img{
+      border-radius: 9px;
+      width: 100%;
+      margin: 0px 0px 20px 0px;
+      float: left;
+    }
+    .book-info{
+      float: bottom;
+      width: 90%;
+      font-size: 0.7rem;
+      background-color: #eee;
+      padding: 10px;
+      border-radius: 9px;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    }
+    p > .book-review{
+      font-family:'Hi Melody', cursive;
+      font-size:15px;
+    }
 }
-}
+
 .book-info{
   float: right;
   width: 50%;
@@ -774,4 +774,32 @@ a.pagination-item:hover {
   font-family:'Hi Melody', cursive;
   font-weight: bold;
   font-size:27px;
+}
+/*profile*/
+
+.profile-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: #ffc0cb;
+  border-radius: 10px;
+}
+.profile-card:hover{
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.profile-subtitle {
+  color: grey;
+  font-size: 18px;
+}
+.profile-icon {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.profile-img{
+  margin: auto auto auto auto;
+  width: 80%;
+  border-radius: 10px;
 }

@@ -1,0 +1,6 @@
+---
+title: 무기가 되는 스토리
+start-day: 2019년 7월 6일
+end-day: 2019년 7월 8일
+cover-url: http://image.yes24.com/Goods/64616922/800x0
+---

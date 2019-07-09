@@ -5,6 +5,7 @@ permalink:           pretty
 #relative_permalinks: true
 collections:
   achieves:
+  books:
 # Setup
 title:               변경민의 LOWIL
 tagline:             'List Of What I Learned'

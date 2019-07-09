@@ -172,6 +172,7 @@ a{
 .sidebar a {
   font-weight: normal;
   color: #fff;
+  font-size: 0.7rem;
 }
 .sidebar-item {
   padding: 1rem;
@@ -800,8 +801,10 @@ a.pagination-item:hover {
   margin: auto;
   text-align: center;
   font-family: arial;
-  background-color: #ffc0cb;
+  background-image: linear-gradient(to bottom right, #edb4fc, #a4dbff);
   border-radius: 10px;
+  float: left;
+  margin-right: 50px;
 }
 .profile-card:hover{
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
@@ -814,9 +817,15 @@ a.pagination-item:hover {
   text-decoration: none;
   font-size: 22px;
   color: black;
+  padding-bottom: 20px;
 }
 .profile-img{
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin: auto auto auto auto;
   width: 80%;
-  border-radius: 10px;
+  border-radius: 30px;
+}
+.profile-features{
+  float: right;
 }

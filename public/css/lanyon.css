@@ -760,7 +760,7 @@ a.pagination-item:hover {
     }
 }
 
-/*book review*/
+/*post book review*/
 .book-info{
   float: right;
   width: 50%;
@@ -793,6 +793,27 @@ a.pagination-item:hover {
     font-family:'Hi Melody', cursive;
     font-size:15px;
   }
+}
+/*book page*/
+.book-title{
+  font-weight: bold;
+}
+.book{
+  margin-left: auto;
+  box-align: center;
+}
+.book-item{
+  list-style: none;
+  margin-bottom: 30px;
+}
+.book-thumbnail{
+  width: 50%;
+  font-size: 0.7rem;
+  background-image: linear-gradient(to bottom left,#ffd1ff,#fad0c4);
+
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 /*profile*/
 

@@ -797,23 +797,29 @@ a.pagination-item:hover {
 /*book page*/
 .book-title{
   font-weight: bold;
-}
-.book{
-  margin-left: auto;
-  box-align: center;
+  display: inline;
 }
 .book-item{
   list-style: none;
   margin-bottom: 30px;
+
+
+}
+.book-thumbnail:hover{
+  background-image: linear-gradient(to top right,#c6d8ff,#ffd1ff);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.175);
 }
 .book-thumbnail{
-  width: 50%;
+  margin: 20px 20px 20px 20px;
+  width: 40%;
+  float: right;
   font-size: 0.7rem;
   background-image: linear-gradient(to bottom left,#ffd1ff,#fad0c4);
-
   padding: 20px;
   border-radius: 9px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+.book-img{
 }
 /*profile*/
 

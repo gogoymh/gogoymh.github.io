@@ -10,6 +10,7 @@ title: Books
     <div class="book-thumbnail">
       <img src="{{ book.cover-url }}" class="book-img"> 
       <h3 class="book-title">{{ book.title }}</h3>
+      <p class="book-author">{{ book.author }}</p>
       <p>{{ book.start-day }} ~ {{ book.end-day }}</p>
     </div>
   </li>

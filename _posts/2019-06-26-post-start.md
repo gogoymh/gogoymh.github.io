@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Post
+title: LOWIL의 시작
 ---
 ## LOWIL이란
 

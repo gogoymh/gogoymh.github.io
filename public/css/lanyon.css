@@ -857,3 +857,6 @@ a.pagination-item:hover {
 .profile-features{
   float: right;
 }
+.last-comment{
+  font-family: 'Black Han Sans';
+}

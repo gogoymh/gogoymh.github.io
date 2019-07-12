@@ -16,4 +16,4 @@ title: Github로 블로그만들기(3)-Jekyll예제 블로그 만들기!
 # 사이트의 제목을 바꾸어보자!
 Jekyll의 사이트에 대한 정보는 대부분 **_config.yml**안에 있다. ![jekyll-sample(6)](/../public/images/post.2019-06-29/jekyll-sample(6).PNG)에서 <strong class ="highlight-blue">title: Your awesome title</strong>의 값을 수정해보자
 > ![jekyll-sample(7)](/../public/images/post.2019-06-29/jekyll-sample(7).PNG) 다음과 같이 title이 *Hello new world*로 바뀐것을 볼 수 있다. 
-<h1 style="font-family: 'Black Han Sans';">오늘은 Jekyll의 예제 파일 생성과 간단한 수정에 대해 알아보았다. 다음에는 자신이 원하는 테마를 찾고, 찾은 테마를 자신의 웹사이트로 등록시키는 과정을 알아보도록 하자!</h1>
+<h1 class="last-comment">오늘은 Jekyll의 예제 파일 생성과 간단한 수정에 대해 알아보았다. 다음에는 자신이 원하는 테마를 찾고, 찾은 테마를 자신의 웹사이트로 등록시키는 과정을 알아보도록 하자!</h1>

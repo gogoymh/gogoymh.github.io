@@ -385,6 +385,7 @@ a.sidebar-nav-item:focus {
 .related-posts li a:hover small {
   color: inherit;
 }
+/*highlight*/
 .highlight-red {
   background-color: #F19595;
 }

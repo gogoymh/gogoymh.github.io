@@ -65,15 +65,12 @@ a{
  * use an outter wrap to position the sidebar without interferring with the
  * regular page content.
  */
-
-.wrap {
+ .wrap {
   position: relative;
   width: 100%;
 }
-
-
 /*
- * Container
+ * Container`
  *
  * Center the page content.
  */
@@ -804,19 +801,24 @@ a.pagination-item:hover {
   list-style: none;
   margin-bottom: 30px;
 }
-.book-thumbnail:hover{
+.book-thumbnail:active{
   background-image: linear-gradient(to top right,#c6d8ff,#ffd1ff);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.175);
+  height: auto;
+  
 }
 .book-thumbnail{
   margin: 20px 20px 20px 20px;
   width: 40%;
+  height: 100px;
   float: right;
   font-size: 0.7rem;
   background-image: linear-gradient(to bottom left,#ffd1ff,#fad0c4);
   padding: 20px;
   border-radius: 9px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  -webkit-transition:height 0.5s, background-color 2s, -webkit-transform 2s;
+  transition:height 0.5s, background-color 2s, transform 2s;
 }
 /*profile*/
 

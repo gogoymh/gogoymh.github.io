@@ -35,6 +35,8 @@
  */
 
 /* Prevent scroll on narrow devices */
+/*@import url(colorful.css);*/
+
 html,
 body {
   overflow-x: hidden;

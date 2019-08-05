@@ -14,5 +14,5 @@ title: e비즈니스의 거래유형!
 ### <strong class="highlight-yellow">C2C(Consumer to Consumer), 소비자와 소비자간의 거래</strong>
 > C2C는 소비자간에 1대1 거래가 이루어지는 것을 말한다. 주로 온라인상에서 개인간의 직거래로 이루어지며 기업은 이러한 개인에게 안전한 거래 성사를 위한 장소를 제공한다 ex) 경매, 벼룩시장, 옥션 등
 
-### <strong class="highlight-yellow">B2G(Business to Goverment), 기업과 정부간의 거래</strong>
+### <strong class="highlight-yellow">B2G(Business to government), 기업과 정부간의 거래</strong>
 > B2G는 기업과 정부간 전자상거래를 의미한다. 정부조달 업무를 중심으로 공급자인 기업과 수요자인 정보간에 이루어진다. 수요자인 정부가 조달상품에 대한 세부 정보를 인터넷 사이트에 공시하면, 기업이 이를 확인하고 입찰, 거래를 성사시키는 전자 입찰 등이 B2G의 예시이다. 

@@ -11,13 +11,10 @@ title: Django Class has no 'objects' member 오류
 
 위의 명령어를 cmd창에 입력하게 되면 pip를 통해 pylint-django를 install하게 된다. 
 
-    {"python.linting.pylintArgs": [
-        "--load-plugins=pylint_django"
-    ],}
-
 그 후 Visual Studio Code의 <span class="highlight-green">Ctrl+Shift+P</span>으로 Pallete를 열고 <span class="highlight-green">Python: Select Linter</span>를 선택, pylint를 선택해준다.
 
 문제해결!
 
+[참고-stack overflow](https://stackoverflow.com/questions/45135263/class-has-no-objects-member) 
 
-[참고-stack overflow](https://stackoverflow.com/questions/45135263/class-has-no-objects-member)
+이해가 안된다면 위의 링크를 한번 보자. 영어가 어렵지 않으니 쉽게 이해할 수 있다.

@@ -18,3 +18,4 @@ title: Django Class has no 'objects' member 오류
 [참고-stack overflow](https://stackoverflow.com/questions/45135263/class-has-no-objects-member) 
 
 이해가 안된다면 위의 링크를 한번 보자. 영어가 어렵지 않으니 쉽게 이해할 수 있다.
+

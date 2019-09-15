@@ -15,6 +15,14 @@ title: Home
     <span class="post-date">{{ post.date | date: "%Y년 %m월 %d일" }}</span>
 
     {{ post.content }}
+    <script src="https://utteranc.es/client.js"
+        repo="Changemin/Changemin.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
   </div>
   {% endfor %}
 </div>

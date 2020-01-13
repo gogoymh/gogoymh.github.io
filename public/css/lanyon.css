@@ -37,6 +37,9 @@
 /* Prevent scroll on narrow devices */
 /*@import url(colorful.css);*/
 
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400'); 
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean'); 
+  
 html,
 body {
   overflow-x: hidden;
@@ -614,44 +617,16 @@ a.pagination-item:hover {
   color: black;
 }
 
-  .achieve:before {
-      top: 0;
-      bottom: 0;
-      position: absolute;
-      content: "";
-      width: 3px;
-      background-color: #eeeeee;
-      left: -5%;
-      margin-left: -1.5px;
-  }
 
   .achieve > li {
       margin-bottom: 20px;
       position: relative;
   }
 
-      .achieve > li:before,
-      .achieve > li:after {
-          content: " ";
-          display: table;
-      }
-
-      .achieve > li:after {
-          clear: both;
-      }
-
-      .achieve > li:before,
-      .achieve > li:after {
-          content: " ";
-          display: table;
-      }
-
-      .achieve > li:after {
-          clear: both;
-      }
+    
 
       .achieve > li > .achieve-panel {
-          width: 100%;
+          width: 120%;
           float: left;
           border: 1px solid #d4d4d4;
           border-radius: 2px;
@@ -659,37 +634,9 @@ a.pagination-item:hover {
           position: relative;
           -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
           box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+          border-radius: 10px;
+          margin-bottom: 30px;
       }
-
-          .achieve > li > .achieve-panel:before {
-              position: absolute;
-              top: 26px;
-              left: -15px;
-              display: inline-block;
-              border-top: 15px solid transparent;
-              border-left: 15px solid #ccc;
-              border-right: 0 solid #ccc;
-              border-bottom: 15px solid transparent;
-              content: " ";
-              border-left-width: 0;
-              border-right-width: 15px;
-              right: auto;
-          }
-
-          .achieve > li > .achieve-panel:after {
-              position: absolute;
-              top: 27px;
-              left: -14px;
-              right: auto;
-              display: inline-block;
-              border-top: 14px solid transparent;
-              border-left: 0;
-              border-right: 0 solid #fff;
-              border-right-width: 14px;
-              border-bottom: 14px solid transparent;
-              content: "";
-
-          }
 
 .achieve-title {
   margin-top: 0;

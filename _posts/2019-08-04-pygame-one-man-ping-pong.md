@@ -3,7 +3,7 @@ layout: post
 title: 포스트 샘플 Post sample
 ---
 ## 그림 샘플
-> ![pygame_logo](https://cdn.inflearn.com/wp-content/uploads/pygame_logo.png) pygame은 python에서 간단한 게임을 구현하고, 실행해볼 수 있는 라이브러리이다.
+> ![pygame_logo](/../public/images/sample.png) pygame은 python에서 간단한 게임을 구현하고, 실행해볼 수 있는 라이브러리이다.
 
 ## 글 그림 샘플 <span class ="highlight-yellow">1man ping pong</span>
 기존의 pingpong게임과 달리 혼자할 수 있고, 쉽지 않은 조작으로 재미를 준다.<br />~~사실 어려워서 제작자도 잘 못하는 게임~~

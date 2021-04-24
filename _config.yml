@@ -7,9 +7,9 @@ collections:
   achieves:
   books:
 # Setup
-title:               블로그 테스트
+title:               블로그 수정중
 tagline:             'Currently making blog'
-description:         'Made by <a href="https://github.com/gogoymh" target="_blank" style="font-size=0.75rem;">@Byun Kyung Min</a>.<br />블로그 테스트'
+description:         'Made by <a href="https://github.com/gogoymh" target="_blank" style="font-size=0.75rem;">@gogoymh</a>.<br />블로그 수정중'
 github-url:           http://github.com/gogoymh
 baseurl:             ''
 plugins:             [jekyll-paginate]

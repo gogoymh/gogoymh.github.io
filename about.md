@@ -9,7 +9,7 @@ title: About
 
 
 <div class="profile-card">
-  <h2 style="text-align:center">Byun Kyung Min</h2>
+  <h2 style="text-align:center">gogoymh</h2>
   <img src="https://avatars3.githubusercontent.com/u/28175067?s=460&v=4" alt="profile" class="profile-img">
   <a href="http://dimigo.hs.kr" target="_blank"><img src="/public/images/profile/dimigo_logo_white.png" alt="dimigo-logo" style="width:80%;margin: 0px auto;"></a>
   <h1>수정중</h1>

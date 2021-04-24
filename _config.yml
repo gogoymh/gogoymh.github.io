@@ -18,9 +18,9 @@ regenerate :         true
 
 # About/contact
 author:
-  name:              Byun Kyung Min
-  url:               https://facebook.com/bkm.change.min
-  email:             bkm.change.min@gmail.com
+  name:              Minhyeong Yu
+  url:               
+  email:             12ymh12@gmail.com
 
 # Custom vars
 version:             1.0.0

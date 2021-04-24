@@ -8,7 +8,7 @@ collections:
   books:
 # Setup
 title:               블로그 테스트
-tagline:             'List Of What I Learned'
+tagline:             'Currently making blog'
 description:         'Made by <a href="https://github.com/gogoymh" target="_blank" style="font-size=0.75rem;">@Byun Kyung Min</a>.<br />블로그 테스트'
 github-url:           http://github.com/gogoymh
 baseurl:             ''

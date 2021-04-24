@@ -1,5 +1,5 @@
-### LOWIL이란
+### 블로그 만들기
 
-> ![LOWIL ICON](/public/Logo.ico)
-
-LOWIL이란 List Of What I Learned의 약자로, 필자가 배운 것들을 간단하게 정리해보는 개인 포스팅 사이트입니다. Jekyll의 Lanyon이라는 테마를 바탕으로 제작했으며, 몇 가지 페이지를 추가했습니다.
+Lanyon Jekyll 테마를 적용하려는데 공식 홈페이지것은 잘 안되길래
+Changemin.github.io 블로그를 잘 만들어두셔서 포크해서 벤치마킹했습니다.
+디자인은 곧 수정하겠습니다.

@@ -16,7 +16,7 @@ title: About
   <p class="profile-subtitle">수정중 입니다.</p>
   
   <div class="profile-icon">
-    <a href="http://facebook.com/bkm.change.min" target="_blank" class="profile-icon"><i class="fa fa-facebook"></i></a>
+    <a href="http://facebook.com/" target="_blank" class="profile-icon"><i class="fa fa-facebook"></i></a>
   </div>
 </div>
 <div>

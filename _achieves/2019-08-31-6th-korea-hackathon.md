@@ -1,7 +1,7 @@
 ---
-title: 제6회 대한민국 융합 해커톤 참여!
-location: 경상북도청 동락관
-member: 전윤민, 김지섭, 이원준, 고윤서, 변경민, 서동휘
-teamname: LUNA
+title: 제목 샘플입니다.
+location: 장소
+member: 멤버
+teamname: 팀이름
 thumbnail: /../public/images/achieves/2019/korea-hackathon.jpg
 ---

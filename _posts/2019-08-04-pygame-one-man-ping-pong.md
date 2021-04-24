@@ -2,7 +2,7 @@
 layout: post
 title: 포스트 샘플 Post sample
 ---
-## pygame이란?
+## 그림 샘플
 > ![pygame_logo](https://cdn.inflearn.com/wp-content/uploads/pygame_logo.png) pygame은 python에서 간단한 게임을 구현하고, 실행해볼 수 있는 라이브러리이다.
 
 ## 방학기간 구현해본 <span class ="highlight-yellow">1man ping pong</span>
@@ -14,11 +14,11 @@ title: 포스트 샘플 Post sample
 * 공이 패들을 제외한 <span class="highlight-red">벽에 닿으면 안된다.</span> ~~점수는 아직 만들지 않았다~~
 * <span class="highlight-yellow">왼쪽과 위쪽 패들은 마우스와 같은 방향으로 움직이고, 아래와 오른쪽 패들을 그와 반대로 움직인다.</span>
 
-## 게임 플레이 예시
+## GIF 
 > ![pygame_logo](/../public/images/post.2019-08-05/play-gif.gif) 아직은 초기여서 패들을 그냥 지나치는 등의 에러사항이 많다.
 <br />~~왤케 못하냐~~
 
-## python코드
+## 코드 샘플
 [github.com/Changemin/one-man-ping-pong](https://github.com/Changemin/one-man-ping-pong)
 
 이번 게임을 만들면서, python의 class를 많이 활용해 보았다. (코드가 그리 좋은 편은 아니다.)

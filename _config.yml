@@ -7,10 +7,10 @@ collections:
   achieves:
   books:
 # Setup
-title:               변경민의 LOWIL
+title:               블로그 테스트
 tagline:             'List Of What I Learned'
-description:         'Made by <a href="https://github.com/changemin" target="_blank" style="font-size=0.75rem;">@Byun Kyung Min</a>.<br />한국디지털미디어고등학교 18기 웹프로그래밍과 변경민'
-github-url:           http://github.com/Changemin
+description:         'Made by <a href="https://github.com/gogoymh" target="_blank" style="font-size=0.75rem;">@Byun Kyung Min</a>.<br />블로그 테스트'
+github-url:           http://github.com/gogoymh
 baseurl:             ''
 plugins:             [jekyll-paginate]
 paginate:            5

@@ -15,7 +15,7 @@ title: 포스트 샘플 Post sample
 * <span class="highlight-yellow">왼쪽과 위쪽 패들은 마우스와 같은 방향으로 움직이고, 아래와 오른쪽 패들을 그와 반대로 움직인다.</span>
 
 ## GIF 샘플
-> ![pygame_logo](/../public/images/post.2019-08-05/play-gif.gif) 아직은 초기여서 패들을 그냥 지나치는 등의 에러사항이 많다.
+> ![pygame_logo](/../public/images/sample.gif) 아직은 초기여서 패들을 그냥 지나치는 등의 에러사항이 많다.
 <br />~~왤케 못하냐~~
 
 ## 코드 샘플

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: pygame으로 구현한 1man ping pong
+title: 포스트 샘플 Post sample
 ---
 ## pygame이란?
 > ![pygame_logo](https://cdn.inflearn.com/wp-content/uploads/pygame_logo.png) pygame은 python에서 간단한 게임을 구현하고, 실행해볼 수 있는 라이브러리이다.

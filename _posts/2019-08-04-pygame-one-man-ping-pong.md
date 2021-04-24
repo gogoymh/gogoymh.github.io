@@ -7,7 +7,7 @@ title: 포스트 샘플 Post sample
 
 ## 글 그림 샘플 <span class ="highlight-yellow">1man ping pong</span>
 기존의 pingpong게임과 달리 혼자할 수 있고, 쉽지 않은 조작으로 재미를 준다.<br />~~사실 어려워서 제작자도 잘 못하는 게임~~
-> ![jekyll-sample(1)](/../public/images/post.2019-08-05/play.PNG) 
+
 ### 글 샘플
 * 자신이 움직일 수 있는 패들은 <span class="highlight-yellow">상,하,좌,우 총4개</span>이다.
 * 게임은 <span class="highlight-green">마우스</span>로 진행된다. 

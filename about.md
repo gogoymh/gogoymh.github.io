@@ -11,7 +11,6 @@ title: About
 <div class="profile-card">
   <h2 style="text-align:center">gogoymh</h2>
   <img src="/../public/images/sample.png" alt="profile" class="profile-img">
-  #<a href="http://dimigo.hs.kr" target="_blank"><img src="/public/images/profile/dimigo_logo_white.png" alt="dimigo-logo" style="width:80%;margin: 0px auto;"></a>
   <h1>수정중</h1>
   <p class="profile-subtitle">수정중 입니다.</p>
   

@@ -43,7 +43,7 @@
 html,
 body {
   overflow-x: hidden;
-  background-image: url(../background-image.svg);
+  background-image: url(../images/background_sample.svg);
   background-position: center;
 }
 

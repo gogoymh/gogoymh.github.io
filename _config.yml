@@ -9,7 +9,7 @@ collections:
 # Setup
 title:               딥이데아
 tagline:             'Deep Idea'
-description:         'Made by <a href="https://github.com/gogoymh" target="_blank" style="font-size=0.75rem;">@gogoymh</a>.<br />블로그 수정중'
+description:         'Made by <a href="https://github.com/gogoymh" target="_blank" style="font-size=0.75rem;">@gogoymh</a>.<br />딥이데아'
 github-url:           http://github.com/gogoymh
 baseurl:             ''
 plugins:             [jekyll-paginate]

@@ -7,8 +7,8 @@ collections:
   achieves:
   books:
 # Setup
-title:               블로그 수정중
-tagline:             'Currently making blog'
+title:               딥이데아
+tagline:             'Deep Idea'
 description:         'Made by <a href="https://github.com/gogoymh" target="_blank" style="font-size=0.75rem;">@gogoymh</a>.<br />블로그 수정중'
 github-url:           http://github.com/gogoymh
 baseurl:             ''
@@ -18,7 +18,7 @@ regenerate :         true
 
 # About/contact
 author:
-  name:              Minhyeong Yu
+  name:              gogoymh
   url:               
   email:             12ymh12@gmail.com
 

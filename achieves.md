@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Achieves
+title: Publications
 ---
 <div class="achieve-container">
   <ul class="achieve">

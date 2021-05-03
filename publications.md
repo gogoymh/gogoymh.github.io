@@ -15,7 +15,7 @@ title: Publications
           <p class="publication-date">{{ publication_date }}</p>
           <hr class="publication-divider"/>
           <div class="publication-info">
-            <p class="publication-where">저널/학회 : {{ publication.where }}</p>
+            <p class="publication-where">학술지 : {{ publication.where }}</p>
             <p class ="publication-team">분야(키워드) : {{ publication.field }}({{ publication.keywords }})</p>
           </div>
         </div>

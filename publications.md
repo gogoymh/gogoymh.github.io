@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pubilcations
+title: Publcations
 ---
 <div class="publication-container">
   <ul class="publication">

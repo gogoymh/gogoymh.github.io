@@ -5,7 +5,7 @@ title: Publications
 <div class="publication-container">
   <ul class="publication">
     {% for publication in site.publications reversed %}
-    {% assign publication_date = pulication.date | date: "%Y년 %m월 %d일" %}
+    {% assign publication_date = publication.date | date: "%Y년 %m월 %d일" %}
     {% capture post_url %} {{ site.baseurl }}{{ publication.url }} {% endcapture %}
     <li class="publication-item">
       <div class="publication-panel">

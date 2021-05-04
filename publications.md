@@ -15,8 +15,8 @@ title: Publications
           <p class="achieve-date">{{ achieve_date }}</p>
           <hr class="achieve-divider"/>
           <div class="achieve-info">
-            <p class="achieve-location">장소 : {{ achieve.location }}</p>
-            <p class ="achieve-team">팀명(멤버) : {{ achieve.teamname }}({{ achieve.member }})</p>
+            <p class="achieve-location">종류 : {{ achieve.location }}</p>
+            <p class ="achieve-team">분야 : {{ achieve.teamname }}({{ achieve.member }})</p>
           </div>
         </div>
       </div>

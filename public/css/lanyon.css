@@ -710,7 +710,7 @@ a.pagination-item:hover {
 /*post book review*/
 .book-info{
   float: right;
-  width: 50%;
+  width: 70%;
   font-size: 0.7rem;
   background-image: linear-gradient(to bottom left,#ffd1ff,#fad0c4);
 
@@ -758,7 +758,7 @@ a.pagination-item:hover {
 } */
 .book-thumbnail{
   margin: 20px 20px 20px 20px;
-  width: 60%;
+  width: 40%;
   height: 400px;
   float: right;
   font-size: 0.7rem;

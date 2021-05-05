@@ -780,7 +780,7 @@ a.pagination-item:hover {
   background-image: linear-gradient(to bottom right, #edb4fc, #a4dbff);
   border-radius: 10px;
   float: left;
-  margin-right: 50px;
+  margin-right: auto;
 }
 .profile-card:hover{
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);

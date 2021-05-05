@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h1 class="post-title">{{ page.title | escape }}</h1>
   <span class="post-date">{{ page.date | date: "%Y년 %m월 %d일" }}</span>
   {{ content }}
 </div>
@@ -15,7 +15,7 @@ layout: default
       <li>
         <h3>
           <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
+            {{ post.title | escape }}
             <small>{{ post.date | date: "%Y년 %m월 %d일" }}</small>
           </a>
         </h3>

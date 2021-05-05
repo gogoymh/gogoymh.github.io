@@ -9,7 +9,7 @@ title: Posts
       {% capture post_url %} {{ site.baseurl }}{{ post.url }} {% endcapture %}
       <li style="font-family: 'Gugi', sans-serif;">
 	    <span class="entry-date">{{ post_date }}<br>
-	    <a href="{{ post_url }}">{{ post.title }}</a></span>
+	    <a href="{{ post_url }}">{{ post.title | escape }}</a></span>
 	    </li>
       <br />
       {% endfor %}

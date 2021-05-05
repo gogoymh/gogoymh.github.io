@@ -8,7 +8,7 @@ title: Home
   <div class="post">
     <h1 class="post-title">
       <a class ="post-link" href="{{ post.url }}">
-        {{ post.title }}
+        {{ post.title | escape }}
       </a>
     </h1>
 

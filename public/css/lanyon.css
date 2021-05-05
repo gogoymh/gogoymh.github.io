@@ -759,7 +759,7 @@ a.pagination-item:hover {
 .book-thumbnail{
   margin: 20px 20px 20px 20px;
   width: 40%;
-  height: 500px;
+  height: 400px;
   float: right;
   font-size: 0.7rem;
   background-image: linear-gradient(to bottom left,#ffd1ff,#fad0c4);

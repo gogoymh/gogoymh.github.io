@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [논문리뷰] Perceiver: General Perception with Iterative Attention
+title: 논문리뷰 Perceiver General Perception with Iterative Attention
 ---
 
 ## 요약 먼저!

@@ -11,7 +11,7 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
   learnable한 latent vector에서 query를 얻어서 Cross Attention을 적용하고,\\
   그 output에 (latent) transformer를 적용한다.
 * 이 과정을 weight sharing을 사용하여 iterative하게 진행해준다.\\
-  (Input에서 반복적으로 query하게 된다.)
+  (Input을 반복적으로 입력받게 된다.)
 * Position Encoding은 fourier encoding을 사용하되 parameterize하여\\
   신경망이 input의 maximum frequency를 확인해\\
   모든 position의 값을 비교할 수 있게 한다.\\

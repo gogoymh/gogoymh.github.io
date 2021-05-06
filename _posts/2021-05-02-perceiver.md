@@ -22,7 +22,9 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
    Permuted ImageNet에서는 압도적인 성능을 보여주었다.\\
 > ![result1](/../public/images/posts/perceiver_fig2.PNG)
 > ![result2](/../public/images/posts/perceiver_fig3.PNG)
-   특히 Randomly Permuted는 모든 픽셀을 뒤섞는 것으로, positional encoding에 반영되지 않은 spatial information를 이용하는 것을 완전히 막은 것이다.\\
+   특히 Randomly Permuted는 모든 픽셀을 뒤섞는 것으로,\\
+   positional encoding에 반영되지 않은 spatial information를\\
+   이용하는 것을 완전히 막은 것이다.\\
    이 결과는 Perceiver가 domain-specific assumption 없이\\
    강력한 퍼포먼스를 보여주는 것을 의미한다.\\
    이러한 양상은 Sound와 Video, Point clouds에서도 동일하게 나타났다.

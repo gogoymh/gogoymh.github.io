@@ -8,8 +8,8 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 
 ## 요약
 방법
-1. 1차원 array로 만든 input에서 key와 value를,\\
-   learnable한 latent vector에서 query를 얻는 Cross Attention을 적용하고,\\
+1. 1차원 array로 만든 input에서 key와 value를 얻고,\\
+   learnable한 latent vector에서 query를 얻어서 Cross Attention을 적용하고,\\
    그 output에 (latent) transformer를 적용한다.
 2. 이 과정을 weight sharing을 사용하여 iterative하게 진행해준다.
 3. Position Encoding은 fourier encoding을 사용하되 parameterize하여\\

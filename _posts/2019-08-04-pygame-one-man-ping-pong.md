@@ -21,7 +21,7 @@ title: 포스트 샘플 Post sample
 ## 코드 샘플
 [github.com/Changemin/one-man-ping-pong](https://github.com/Changemin/one-man-ping-pong)
 
-이번 게임을 만들면서, python의 class를 많이 활용해 보았다. (코드가 그리 좋은 편은 아니다.)
+이번 게임을 만들면서, python의 class를 많이 활용해 보았다. (코드 샘플.)
 {% highlight python %}
 import pygame as pygame
 import sys, random

@@ -4,7 +4,7 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 ---
 
 ## 아키텍쳐
-> ![architecture](/../public/images/posts/perceiver_fig1.PNG)
+> [![architecture](/../public/images/posts/perceiver_fig1.PNG)](/../public/images/posts/perceiver_fig1.PNG)
 
 ## 요약
 방법
@@ -24,7 +24,8 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 > [![result1](/../public/images/posts/perceiver_fig2.PNG)](/../public/images/posts/perceiver_fig2.PNG)
   일반 ImageNet
 
-> ![result2](/../public/images/posts/perceiver_fig3.PNG) Permuted ImageNet
+> [![result2](/../public/images/posts/perceiver_fig3.PNG)](/../public/images/posts/perceiver_fig3.PNG)
+  Permuted ImageNet
 
 * 특히 Randomly Permuted는 모든 픽셀을 뒤섞는 것으로,\\
   positional encoding에 반영되지 않은 spatial information를\\

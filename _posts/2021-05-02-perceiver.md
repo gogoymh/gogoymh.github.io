@@ -5,6 +5,7 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 
 ## 아키텍쳐
 > [![architecture](/../public/images/posts/perceiver_fig1.PNG)](/../public/images/posts/perceiver_fig1.PNG)
+  Perceiver 모델 구조
 
 ## 방법
 * 1차원 array로 만든 input에서 key와 value를 얻고,\\

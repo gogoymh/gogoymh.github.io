@@ -28,8 +28,8 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 * 특히 Randomly Permuted는 모든 픽셀을 뒤섞는 것으로,\\
   positional encoding에 반영되지 않은 spatial information를\\
   이용하는 것을 완전히 막은 것이다.\\
-  이 결과는 Perceiver가 domain-specific assumption 없이\\
-  강력한 퍼포먼스를 보여주는 것을 의미한다.\\
+  이 결과는 <span class="highlight-red">Perceiver가 domain-specific assumption 없이\\
+  강력한 퍼포먼스를 보여주는 것</span>을 의미한다.\\
   이러한 양상은 Sound와 Video, Point clouds에서도 동일하게 나타났다.
 * Cross attention은 input보다 작은 차원의 latent vector에서 query하기 때문에\\
    complexity를 줄이는데 매우 효과적이며, 여기서 줄인 complexity 덕분에\\

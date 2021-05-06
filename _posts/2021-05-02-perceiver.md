@@ -47,4 +47,4 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 ## Reference
 1. Andrew Jaegle, Felix Gimeno, Andrew Brock, Andrew Zisserman, Oriol Vinyals, Joao Carreira\\
    Perceiver: General Perception with Iterative Attention\\
-   [https://arxiv.org/pdf/2103.03206.pdf](https://arxiv.org/pdf/2103.03206.pdf)
+   [https://arxiv.org/abs/2103.03206](https://arxiv.org/abs/2103.03206)

@@ -4,7 +4,7 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 ---
 
 ## 아키텍쳐
-> ![architecture](/../public/images/posts/perceiver_fig1.png)
+> ![architecture](/../public/images/posts/perceiver_fig1.PNG)
 
 ## 요약
 방법

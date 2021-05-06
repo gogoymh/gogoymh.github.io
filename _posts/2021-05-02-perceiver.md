@@ -3,6 +3,9 @@ layout: post
 title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 ---
 
+## 아키텍쳐
+> ![architecture](/../public/images/posts/perceiver_fig1.png)
+
 ## 요약
 방법
 1. Input을 1차원의 array로 만들어 key와 value를,\\

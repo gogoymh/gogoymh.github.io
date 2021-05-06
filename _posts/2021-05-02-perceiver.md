@@ -5,7 +5,7 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 
 ## 요약
 방법
-1. Input을 1차원의 array로 만들어 key와 value를,
+1. Input을 1차원의 array로 만들어 key와 value를,\\
    learnable한 latent vector에서 query를 얻는 Cross Attention을 적용하고,
    그 output에 transformer를 적용한다.
 2. 이 과정을 weight sharing을 사용하여 iterative하게 진행해준다.

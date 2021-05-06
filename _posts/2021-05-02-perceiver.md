@@ -8,23 +8,23 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 
 ## 요약
 방법
-1. Input을 1차원의 array로 만들어 key와 value를,\\
+1. 1차원 array로 만든 input에서 key와 value를,\\
    learnable한 latent vector에서 query를 얻는 Cross Attention을 적용하고,\\
-   그 output에 transformer를 적용한다.
+   그 output에 (latent) transformer를 적용한다.
 2. 이 과정을 weight sharing을 사용하여 iterative하게 진행해준다.
-3. Position Encoding은 fourier encoding을 사용하되,\\
-   parameterization을 이용해 신경망이 input의 maximum frequency를 확인하여\\
+3. Position Encoding은 fourier encoding을 사용하되 parameterize하여\\
+   신경망이 input의 maximum frequency를 확인해\\
    모든 position의 값을 비교할 수 있게 한다.\\
    또한 더하지 않고 concatenate해준다.
 
 결과
-1. 일반 ImageNet에서는 약간 뒤쳐지만 Permuted ImageNet에서는 압도적인 성능을 보여주었다.\\
-   ImageNet ViT-B-16: 77.9% > ResNet-50: 76.9% > Perceiver 76.4%\\
-   Permuted ImageNet(Fixed) Perceiver: 76.4% > ViT-B-16: 61.7% > ResNet-50: 39.4%\\
-   Permuted ImageNet(Random) Perceiver: 76.4% > ViT-B-16: 16.1% > ResNet-50: 14.3%\\
-   특히 Randomly Permuted는 모든 픽셀을 뒤섞는 것으로,\\
-   positional encoding에 반영되지 않은 spatial information를 이용하는 것을 완전히 막은 것이다.\\
-   이 결과는 Perceiver가 domain-specific assumption 없이 강력한 퍼포먼스를 보여주는 것을 의미한다.\\
+1. 일반 ImageNet에서는 약간 뒤쳐지지만
+   Permuted ImageNet에서는 압도적인 성능을 보여주었다.\\
+> ![result1](/../public/images/posts/perceiver_fig2.PNG)
+> ![result2](/../public/images/posts/perceiver_fig3.PNG)
+   특히 Randomly Permuted는 모든 픽셀을 뒤섞는 것으로, positional encoding에 반영되지 않은 spatial information를 이용하는 것을 완전히 막은 것이다.\\
+   이 결과는 Perceiver가 domain-specific assumption 없이\\
+   강력한 퍼포먼스를 보여주는 것을 의미한다.\\
    이러한 양상은 Sound와 Video, Point clouds에서도 동일하게 나타났다.
 2. Cross attention은 input보다 작은 차원의 latent vector에서 query하기 때문에\\
    complexity를 줄이는데 매우 효과적이며, 여기서 줄인 complexity 덕분에\\

@@ -6,8 +6,7 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 ## 아키텍쳐
 > [![architecture](/../public/images/posts/perceiver_fig1.PNG)](/../public/images/posts/perceiver_fig1.PNG)
 
-## 요약
-방법
+## 방법
 * 1차원 array로 만든 input에서 key와 value를 얻고,\\
   learnable한 latent vector에서 query를 얻어서 Cross Attention을 적용하고,\\
   그 output에 (latent) transformer를 적용한다.
@@ -18,7 +17,7 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
   모든 position의 값을 비교할 수 있게 한다.\\
   또한 더하지 않고 concatenate해준다.
 
-결과
+## 결과
 * 일반 ImageNet에서는 약간 뒤쳐지지만
   Permuted ImageNet에서는 압도적인 성능을 보여주었다.
   

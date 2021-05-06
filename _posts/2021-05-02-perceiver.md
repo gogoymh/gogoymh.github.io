@@ -21,7 +21,8 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 * 일반 ImageNet에서는 약간 뒤쳐지지만
   Permuted ImageNet에서는 압도적인 성능을 보여주었다.
   
-> ![result1](/../public/images/posts/perceiver_fig2.PNG) 일반 ImageNet
+> [![result1](/../public/images/posts/perceiver_fig2.PNG)](/../public/images/posts/perceiver_fig2.PNG)
+  일반 ImageNet
 
 > ![result2](/../public/images/posts/perceiver_fig3.PNG) Permuted ImageNet
 

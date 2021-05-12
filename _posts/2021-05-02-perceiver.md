@@ -76,7 +76,8 @@ Given EI, L
 for i in range(repeat):
     L = Cross Attention(q=L,k=EI,v=EI)
     L = Self Attention(q=L,k=L,v=L)
-output=Logit(L)
+output = Logit(L)
+
 {% endhighlight %}
 
 

@@ -52,8 +52,9 @@ use_math: true
   파라미터 수를 줄일 뿐만 아니라, overfit을 방지하는데 효과적이었다.
    
 
-## 텐서 디멘션으로 보기
-작성중
+## 텐서 차원으로 보기
+Input (B, 3, 224, 224) # Batchsize B의 ImageNet 데이터
+
 
 ## Reference
 1. Andrew Jaegle, Felix Gimeno, Andrew Brock, Andrew Zisserman, Oriol Vinyals, Joao Carreira\\

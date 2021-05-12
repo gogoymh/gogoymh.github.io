@@ -12,12 +12,11 @@ use_math: true
 * 1차원 array로 만든 input에서 key와 value를 얻고,\\
   learnable한 latent vector에서 query를 얻어서 Cross-attention을 적용하고,\\
   그 output에 transformer를 적용한다.\\
-  즉, Complexity를 줄이기 위해\\
-  Cross-attention을 통해 latent space로 input의 정보를 반복하여 입력하고\\
-  Self-attention을 latent dimension에서 하는 것이다.\\
+  즉, Complexity를 줄이기 위해,\\
+  Cross-attention을 통해 latent space로 input의 정보를 반복 입력하여\\
+  Self-attention을 latent dimension에서 하는 것이다.
 * Cross-attention과 Self-attention을 RNN처럼\\
   weight sharing을 사용하여 iterative하게 진행해준다.\\
-  Input을 반복적으로 입력하게 된다.
 * Position Encoding은 fourier encoding을 사용하되 parameterize한다.\\
   $[-1,1]$ 사이의 값을 가진 raw position value $x_d$를 얻고,\\
   frequency value $f_k$를 얻어서,

@@ -1,3 +1,10 @@
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.

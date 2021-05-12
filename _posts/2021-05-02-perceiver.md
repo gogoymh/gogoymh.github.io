@@ -18,8 +18,7 @@ use_math: true
   $[-1,1]$의 값의 raw position value를 얻고,\\
   frequency value $f_k$를 얻어서,
   $[sin(f_k \pi x_d), cos(f_k \pi x_d)]$의 수식을 얻는다.\\
-  $f_k$는 $1$과 $\freq{\mu}{2}$ 사이에서 log-linearly하게 놓인\\
-  $k^{th}$번째 값이다.\\
+  $f_k$는 $1$과 $\frac{\mu}{2}$ 사이에서 log-linearly하게 놓인 $k^{th}$번째 값이다.\\
   신경망이 input의 maximum frequency($\mu$)를 확인해\\
   모든 position의 값을 비교할 수 있게 한다.\\
   또한 인코딩을 더하지 않고 concatenate해준다.

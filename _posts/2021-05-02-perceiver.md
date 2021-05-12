@@ -44,10 +44,11 @@ use_math: true
   강력한 퍼포먼스를 보여주는 것</span>을 의미한다.\\
   이러한 양상은 Sound와 Video, Point clouds에서도 동일하게 나타났다.
 * Cross attention은 input($M=50176=224\times224$ in ImageNet)보다\\
-  작은 차원의 latent vector($N=1024$)에서 query하기 때문에\\
-  complexity를 줄이는데 매우 효과적이며($O(M^2)$ -> $O(MN)$),\\
+  작은 차원의 latent vector($N<<M$)에서 query하기 때문에\\
+  assymetry한 matrix multiplication을 통해 $O(M^2)$ -> $O(MN)$만큼\\
+  complexity를 줄이는데 매우 효과적이며,\\
   여기서 줄인 complexity 덕분에\\
-  전체 구조에다 (latent) transformer를 deep하게 사용할 수 있었다.\\
+  전체 구조에다 (latent) transformer($O(N^2))를 deep하게 사용할 수 있었다.\\
   또한 weight sharing으로 transformer를 iterative하게 사용하는 것은\\
   파라미터 수를 줄일 뿐만 아니라, overfit을 방지하는데 효과적이었다.
    

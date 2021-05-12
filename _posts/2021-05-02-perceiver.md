@@ -25,7 +25,8 @@ use_math: true
   $f_k$는 $1$과 $\frac{\mu}{2}$ 사이에서 log-linearly하게 놓인 $k^{th}$번째 band다.\\
   신경망이 input의 maximum frequency($\mu$)를 확인해\\
   모든 position의 값을 비교할 수 있게 한다.\\
-  또한 positional encoding은 더하지 않고 concatenate해준다.
+  실제로는 raw position까지 결합한 $[sin(f_k \pi x_d), cos(f_k \pi x_d), x_d]$을 사용하며\\
+  input에 더하지 않고 concatenate해준다.
 
 ## 결과
 * 일반 ImageNet에서는 약간 뒤쳐지지만
@@ -56,9 +57,9 @@ use_math: true
 Input  (B, 3, 224, 224) # Batch size B인 ImageNet 이미지 데이터\\
 Input  (B, 50176, 3) # 픽셀을 합치고 차원을 permute해준다.
 
-Positional Encoding(PE) (B, 50176, bands * 2 * 2) # 2차원 Image에 대한 PE
+Positional Encoding(PE) (B, 50176, bands * 2 * 2 + 2) # 2차원 Image에 대한 PE
 
-Concatenated Input(CE) (B, 50176, 3 + 4 * bands) # Input과 PE의 concat\\
+Concatenated Input(CE) (B, 50176, 5 + 4 * bands) # Input과 PE의 concat\\
 Embedded Input(EI) (B, 50176, d_models) CE를 d_models feature로 embedd한 것
 
 Latent(L) (B, 1024, d_models) # 학습되는 latent vector가 B만큼 expand된 것

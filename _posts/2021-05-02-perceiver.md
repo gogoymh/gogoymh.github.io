@@ -54,21 +54,24 @@ use_math: true
    
 
 ## 텐서 차원으로 이해하기
-Input  (B, 3, 224, 224) # Batch size B인 ImageNet 이미지 데이터\\
-Input  (B, 3, 50176) # 픽셀을 합친다.
+{% highlight python %}
+Input = (B, 3, 224, 224) # Batch size B인 ImageNet 이미지 데이터\\
+Input = (B, 3, 50176) # 픽셀을 합친다.
 
-Positional Encoding(PE) (B, bands * 2 * 2 + 2, 50176) # 2차원 Image에 대한 PE
+Positional Encoding(PE) = (B, bands * 2 * 2 + 2, 50176) # 2차원 Image에 대한 PE
 
-Concatenated Input(CE) (B, 5 + 4 * bands, 50176) # Input과 PE의 concat\\
-Embedded Input(EI) (B, d_models, 50176) CE를 d_models로 embedd한 것
+Concatenated Input(CE) = (B, 5 + 4 * bands, 50176) # Input과 PE의 concat\\
+Embedded Input(EI) = (B, d_models, 50176) CE를 d_models로 embedd한 것
 
-Latent(L) (B, d_models, 1024) # 학습되는 latent vector가 B만큼 expand된 것
+Latent(L) = (B, d_models, 1024) # 학습되는 latent vector가 B만큼 expand된 것
 
 Given EI, L\\
 for i in range(repeat):\\
     L = Cross Attention(q=L,k=EI,v=EI)\\
     L = Self Attention(q=L,k=L,v=L)\\
 output=Logit(L)
+{% endhighlight %}
+
 
 
 ---

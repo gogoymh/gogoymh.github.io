@@ -17,7 +17,7 @@ use_math: true
   Self-attention을 latent dimension에서 하는 것이다.</span>
 * Cross-attention과 Self-attention을 RNN처럼\\
   weight sharing을 사용하여 iterative하게 진행해준다.\\
-  이 과정을 통해 input이 반복적으로 입력된다.
+  이 과정을 통해 input이 반복적으로 여러번 입력된다.
 * Position Encoding은 fourier encoding을 사용하되 parameterize한다.\\
   $[-1,1]$ 사이의 값을 가진 raw position value $x_d$를 얻고,\\
   frequency value $f_k$를 얻어서,
@@ -48,12 +48,15 @@ use_math: true
   assymetry한 matrix multiplication을 통해 $O(M^2)$ -> $O(MN)$만큼\\
   complexity를 줄이고, 그 덕분에 전체 구조에다 비교적 저렴한\\
   (latent) transformer($O(N^2)$)를 deep하게 사용할 수 있었다.\\
-  또한 weight sharing으로 transformer를 iterative하게 사용하는 것은\\
+* weight sharing으로 transformer를 iterative하게 사용하는 것은\\
   파라미터 수를 줄일 뿐만 아니라, overfit을 방지하는데 효과적이었다.
    
 
 ## 텐서 차원으로 보기
-Input (B, 3, 224, 224) # Batchsize B의 ImageNet 데이터
+Input  (B, 3, 224, 224) # Batch size B인 ImageNet 이미지 데이터
+Input  (B, 50176, 3) # 픽셀을 합치고 차원을 permute해준다.
+
+Latent (B, 1024, d_models)
 
 
 ## Reference

@@ -64,12 +64,14 @@ Embedded Input(EI) (B, 50176, d_models) CE를 d_models feature로 embedd한 것
 
 Latent(L) (B, 1024, d_models) # 학습되는 latent vector가 B만큼 expand된 것
 
----
 Given EI, L\\
 for i in range(repeat):\\
     L=Cross Attention(q=L,k=EI,v=EI)\\
     L=Self Attention(q=L,k=L,v=L)\\
 output=Logit(L)
+
+
+---
 
 ## Reference
 1. Andrew Jaegle, Felix Gimeno, Andrew Brock, Andrew Zisserman, Oriol Vinyals, Joao Carreira\\

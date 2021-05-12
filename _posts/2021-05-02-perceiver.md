@@ -15,13 +15,13 @@ use_math: true
 * 이 과정을 weight sharing을 사용하여 iterative하게 진행해준다.\\
   (Input을 반복적으로 입력하게 된다)
 * Position Encoding은 fourier encoding을 사용하되 parameterize한다.\\
-  $[-1,1]$의 값의 raw position value를 얻고,\\
+  $[-1,1]$ 사이의 값을 가진 raw position value를 얻고,\\
   frequency value $f_k$를 얻어서,
   $[sin(f_k \pi x_d), cos(f_k \pi x_d)]$의 수식을 얻는다.\\
   $f_k$는 $1$과 $\frac{\mu}{2}$ 사이에서 log-linearly하게 놓인 $k^{th}$번째 band다.\\
   신경망이 input의 maximum frequency($\mu$)를 확인해\\
   모든 position의 값을 비교할 수 있게 한다.\\
-  또한 인코딩을 더하지 않고 concatenate해준다.
+  또한 positional encoding은 더하지 않고 concatenate해준다.
 
 ## 결과
 * 일반 ImageNet에서는 약간 뒤쳐지지만

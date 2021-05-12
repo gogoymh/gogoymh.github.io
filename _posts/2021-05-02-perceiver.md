@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
+use_math: true
 ---
 
 ## 아키텍쳐
@@ -14,6 +15,7 @@ title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 * 이 과정을 weight sharing을 사용하여 iterative하게 진행해준다.\\
   (Input을 반복적으로 입력하게 된다)
 * Position Encoding은 fourier encoding을 사용하되 parameterize하여\\
+  latex 테스트 중 $f(x) = x^2$\\
   신경망이 input의 maximum frequency를 확인해\\
   모든 position의 값을 비교할 수 있게 한다.\\
   또한 더하지 않고 concatenate해준다.

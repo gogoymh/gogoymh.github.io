@@ -60,7 +60,7 @@ Input = (B, 3, 224, 224)
 # 픽셀을 합친다.
 Input = (B, 3, 50176)
 
-# 2차원 Image에 대한 Positional Encoding
+# 2차원 Image에 대한 Positional Encoding이 B만큼 expand된 것
 Positional Encoding(PE) = (B, bands * 2 * 2 + 2, 50176)
 
 # Input과 PE의 concatenation

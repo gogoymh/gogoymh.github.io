@@ -29,7 +29,7 @@ use_math: true
   input에 더하지 않고 concatenate해준다.
 
 ## 결과
-* 일반 ImageNet에서는 약간 뒤쳐지지만
+* 일반 ImageNet에서는 약간 뒤쳐지지만\\
   Permuted ImageNet에서는 압도적인 성능을 보여주었다.
   
 > [![result1](/../public/images/posts/perceiver_fig2.PNG)](/../public/images/posts/perceiver_fig2.PNG)

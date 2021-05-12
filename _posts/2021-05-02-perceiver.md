@@ -14,11 +14,11 @@ use_math: true
   그 output에 (latent) transformer를 적용한다.
 * 이 과정을 weight sharing을 사용하여 iterative하게 진행해준다.\\
   (Input을 반복적으로 입력하게 된다)
-* Position Encoding은 fourier encoding을 사용하되 parameterize하여\\
-  latex 테스트 중 $f(x) = x^2$\\
+* Position Encoding은 fourier encoding을 사용하되 parameterize한다.\\
   신경망이 input의 maximum frequency를 확인해\\
   모든 position의 값을 비교할 수 있게 한다.\\
-  또한 더하지 않고 concatenate해준다.
+  정리하면, $[sin(f_k \pi x_d), cos(f_k \pi x_d), x_d]$의 수식이다.\\
+  또한 인코딩을 더하지 않고 concatenate해준다.
 
 ## 결과
 * 일반 ImageNet에서는 약간 뒤쳐지지만

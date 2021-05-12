@@ -69,7 +69,7 @@ Concatenated Input(CE) = (B, 5 + 4 * bands, 50176)
 Embedded Input(EI) = (B, d_models, 50176) 
 
 # 학습되는 latent vector가 B만큼 expand된 것
-Latent(L) = (B, d_models, 1024)
+Latent(L) = (B, d_models, 1024) # 1024는 hyperparameter다
 
 # 간단한 Pseudo Code
 Given EI, L

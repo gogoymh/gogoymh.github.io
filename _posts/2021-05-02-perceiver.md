@@ -25,7 +25,7 @@ use_math: true
   $f_k$는 $1$과 $\frac{\mu}{2}$ 사이에서 log-linearly하게 놓인 $k^{th}$번째 band다.\\
   신경망이 input의 maximum frequency($\mu$)를 확인해\\
   모든 position의 값을 비교할 수 있게 한다.\\
-  실제로는 raw position까지 결합한 $[sin(f_k \pi x_d), cos(f_k \pi x_d), x_d]$을 사용하며\\
+  실제로는 raw position까지 결합해 $[sin(f_k \pi x_d), cos(f_k \pi x_d), x_d]$을 사용하며\\
   input에 더하지 않고 concatenate해준다.
 
 ## 결과

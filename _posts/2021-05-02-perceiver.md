@@ -43,7 +43,7 @@ use_math: true
   이 결과는 <span class="highlight-red">Perceiver가 domain-specific assumption 없이\\
   강력한 퍼포먼스를 보여주는 것</span>을 의미한다.\\
   이러한 양상은 Sound와 Video, Point clouds에서도 동일하게 나타났다.
-* Cross attention은 input($M=50176$ $224\times224$ in ImageNet)보다\\
+* Cross attention은 input($M=50176=224\times224$ in ImageNet)보다\\
   작은 차원의 latent vector($N=1024$)에서 query하기 때문에\\
   complexity를 줄이는데 매우 효과적이며($O(M^2)$ -> $O(MN)$),\\
   여기서 줄인 complexity 덕분에\\

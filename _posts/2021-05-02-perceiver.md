@@ -60,7 +60,7 @@ Input  (B, 50176, 3) # 픽셀을 합치고 차원을 permute해준다.
 Positional Encoding(PE) (B, 50176, bands * 2 * 2 + 2) # 2차원 Image에 대한 PE
 
 Concatenated Input(CE) (B, 50176, 5 + 4 * bands) # Input과 PE의 concat\\
-Embedded Input(EI) (B, 50176, d_models) CE를 d_models feature로 embedd한 것
+Embedded Input(EI) (B, 50176, d_models) CE를 d_models로 embedd한 것
 
 Latent(L) (B, 1024, d_models) # 학습되는 latent vector가 B만큼 expand된 것
 

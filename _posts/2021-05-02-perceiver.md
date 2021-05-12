@@ -13,10 +13,11 @@ use_math: true
   learnable한 latent vector에서 query를 얻어서 Cross-attention을 적용하고,\\
   그 output에 transformer를 적용한다.\\
   즉, Complexity를 줄이기 위해,\\
-  Cross-attention을 통해 latent space로 input의 정보를 반복 입력하여\\
+  Cross-attention을 통해 latent space로 input의 정보를 축소 입력하여\\
   Self-attention을 latent dimension에서 하는 것이다.
 * Cross-attention과 Self-attention을 RNN처럼\\
   weight sharing을 사용하여 iterative하게 진행해준다.\\
+  이 과정을 통해 input이 반복적으로 입력된다.
 * Position Encoding은 fourier encoding을 사용하되 parameterize한다.\\
   $[-1,1]$ 사이의 값을 가진 raw position value $x_d$를 얻고,\\
   frequency value $f_k$를 얻어서,
@@ -42,11 +43,13 @@ use_math: true
   이 결과는 <span class="highlight-red">Perceiver가 domain-specific assumption 없이\\
   강력한 퍼포먼스를 보여주는 것</span>을 의미한다.\\
   이러한 양상은 Sound와 Video, Point clouds에서도 동일하게 나타났다.
-* Cross attention은 input보다 작은 차원의 latent vector에서 query하기 때문에\\
-   complexity를 줄이는데 매우 효과적이며, 여기서 줄인 complexity 덕분에\\
-   전체 구조에다 transformer를 deep하게 사용할 수 있었다.\\
-   또한 weight sharing으로 transformer를 iterative하게 사용하는 것은\\
-   파라미터 수를 줄일 뿐만 아니라, overfit을 방지하는데 효과적이었다.
+* Cross attention은 input($M=50176$ $224\times224$ in ImageNet)보다\\
+  작은 차원의 latent vector($N=1024$)에서 query하기 때문에\\
+  complexity를 줄이는데 매우 효과적이며($O(M^2)$ -> $O(MN)$),\\
+  여기서 줄인 complexity 덕분에\\
+  전체 구조에다 (latent) transformer를 deep하게 사용할 수 있었다.\\
+  또한 weight sharing으로 transformer를 iterative하게 사용하는 것은\\
+  파라미터 수를 줄일 뿐만 아니라, overfit을 방지하는데 효과적이었다.
    
 
 ## 텐서 디멘션으로 보기

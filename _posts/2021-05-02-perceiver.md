@@ -52,18 +52,23 @@ use_math: true
   파라미터 수를 줄일 뿐만 아니라, overfit을 방지하는데 효과적이었다.
    
 
-## 텐서 차원으로 보기
+## 텐서 차원으로 이해하기
 Input  (B, 3, 224, 224) # Batch size B인 ImageNet 이미지 데이터\\
 Input  (B, 50176, 3) # 픽셀을 합치고 차원을 permute해준다.
 
 Positional Encoding(PE) (B, 50176, bands * 2 * 2) # 2차원 Image에 대한 PE
 
 Concatenated Input(CE) (B, 50176, 3 + 4 * bands) # Input과 PE의 concat\\
-Embedded Input (B, 50176, d_models) CE를 d_models feature로 embedd한 것
+Embedded Input(EI) (B, 50176, d_models) CE를 d_models feature로 embedd한 것
 
-Latent (B, 1024, d_models) # 학습되는 latent vector가 B만큼 expand된 것
+Latent(L) (B, 1024, d_models) # 학습되는 latent vector가 B만큼 expand된 것
 
 ---
+Given EI, L\\
+for i in range(repeat):\\
+    L=Cross Attention(q=L,k=EI,v=EI)\\
+    L=Self Attention(q=L,k=L,v=L)\\
+output=Logit(L)
 
 ## Reference
 1. Andrew Jaegle, Felix Gimeno, Andrew Brock, Andrew Zisserman, Oriol Vinyals, Joao Carreira\\

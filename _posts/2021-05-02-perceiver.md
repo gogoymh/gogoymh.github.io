@@ -15,9 +15,13 @@ use_math: true
 * 이 과정을 weight sharing을 사용하여 iterative하게 진행해준다.\\
   (Input을 반복적으로 입력하게 된다)
 * Position Encoding은 fourier encoding을 사용하되 parameterize한다.\\
-  신경망이 input의 maximum frequency를 확인해\\
+  $[-1,1]$의 값의 raw position value를 얻고,\\
+  frequency value $f_k$를 얻어서,
+  $[sin(f_k \pi x_d), cos(f_k \pi x_d)]$의 수식을 얻는다.\\
+  $f_k$는 $1$과 $\freq{\mu}{2}$ 사이에서 log-linearly하게 놓인\\
+  $k^{th}$번째 값이다.\\
+  신경망이 input의 maximum frequency($\mu$)를 확인해\\
   모든 position의 값을 비교할 수 있게 한다.\\
-  정리하면, $[sin(f_k \pi x_d), cos(f_k \pi x_d), x_d]$의 수식이다.\\
   또한 인코딩을 더하지 않고 concatenate해준다.
 
 ## 결과
@@ -43,7 +47,7 @@ use_math: true
    파라미터 수를 줄일 뿐만 아니라, overfit을 방지하는데 효과적이었다.
    
 
-## 부연 설명
+## 텐서 디멘션으로 보기
 작성중
 
 ## Reference

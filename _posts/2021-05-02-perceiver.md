@@ -71,7 +71,7 @@ Embedded Input(EI) = (B, d_models, 50176)
 # 학습되는 latent vector가 B만큼 expand된 것
 Latent(L) = (B, d_models, 1024) # 1024는 hyperparameter다
 
-# 간단한 Pseudo Code
+# 간단한 Pseudocode
 Given EI, L
 for i in range(repeat):
     L = Cross Attention(q=L,k=EI,v=EI)

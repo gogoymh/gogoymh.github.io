@@ -4,25 +4,26 @@ title: About
 ---
 
 <p class="message">
-  이 페이지는 현재 수정중입니다.
+  Welcome to my blog!
 </p>
 
 
+
 <div class="profile-card">
-  <h2 style="text-align:center">gogoymh</h2>
+  <h2 style="text-align:center">Deep Idea</h2>
   <img src="/../public/images/sample.png" alt="profile" class="profile-img">
-  <h1>수정중</h1>
-  <p class="profile-subtitle">수정중 입니다.</p>
+  <h1>딥이데아</h1>
+  <p class="profile-subtitle">12ymh12@gmail.com</p>
   
   <div class="profile-icon">
-    <a href="http://facebook.com/" target="_blank" class="profile-icon"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.youtube.com/channel/UChFclG5hzKK-KUCNOj1NhJw" target="_blank" class="profile-icon"><i class="fa fa-facebook"></i></a>
   </div>
 </div>
 <div>
   <h1>Features</h1>
   <ul>
-    <li>👶🏻수정중</li>
-    <li>😍수정중😍</li>
-    <li>👨🏼‍💼수정중👨🏼‍💼</li>
+    <li>딥러닝 연구자</li>
+    <li>개발자</li>
+    <li>유튜버</li>
   </ul>
 </div>

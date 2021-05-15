@@ -16,7 +16,7 @@ title: About
   <p class="profile-subtitle">12ymh12@gmail.com</p>
   
   <div class="profile-icon">
-    <a href="https://www.youtube.com/channel/UChFclG5hzKK-KUCNOj1NhJw" target="_blank" class="profile-icon"><i class="fa fa-youtube"></i></a>
+    <a href="https://www.youtube.com/channel/UChFclG5hzKK-KUCNOj1NhJw" target="_blank" class="profile-icon"><i class="fa fa-youtube-play"></i></a>
   </div>
 </div>
 <div>

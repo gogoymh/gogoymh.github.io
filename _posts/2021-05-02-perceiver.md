@@ -14,7 +14,7 @@ use_math: true
   그 output에 transformer를 적용한다.\\
   즉, Complexity를 줄이기 위해,\\
   <span class="highlight-yellow">Cross-attention을 통해 latent space로 input의 정보를 축소 입력하여\\
-  Self-attention을 latent dimension에서 하는 것이다.</span>
+  Self-attention을 latent dimension에서 하는 방식이다.</span>
 * Cross-attention과 Self-attention을 RNN처럼\\
   weight sharing을 사용하여 iterative하게 진행해준다.\\
   이 과정을 통해 input이 반복적으로 여러번 입력된다.

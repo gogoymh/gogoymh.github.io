@@ -73,6 +73,7 @@ Latent(L) = (B, d_models, 1024) # 1024는 hyperparameter다
 
 # 간단한 Pseudocode
 Given EI, L
+Instantiate Cross Attention, Self Attention
 for i in range(repeat):
     L = Cross Attention(q=L,k=EI,v=EI)
     L = Self Attention(q=L,k=L,v=L)

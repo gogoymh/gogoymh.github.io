@@ -46,7 +46,7 @@ use_math: true
   이러한 양상은 Sound와 Video, Point clouds에서도 동일하게 나타났다.
 * Cross attention은 input($M=50176=224\times224$ in ImageNet)보다\\
   작은 차원의 latent vector($N=1024 \ll M$)에서 query하기 때문에\\
-  assymetry한 matrix multiplication을 통해 $O(M^2)$ &rarr; $O(MN)$만큼\\
+  asymmetric한 matrix multiplication을 통해 $O(M^2)$ &rarr; $O(MN)$만큼\\
   complexity를 줄이고, 그 덕분에 전체 구조에다 비교적 저렴한\\
   (latent) transformer($O(N^2)$)를 deep하게 사용할 수 있었다.
 * Weight sharing으로 transformer를 iterative하게 사용하는 것은\\

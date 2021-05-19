@@ -64,8 +64,8 @@ Input = (B, 3, 50176)
 Positional Encoding(PE) = (B, bands * 2 * 2 + 2, 50176)
 
 # Input과 PE의 concatenation
-Concatenated Input(CE) = (B, 5 + 4 * bands, 50176) 
-# CE를 d_models feature dimension으로 embedd한 것
+Concatenated Input(CI) = (B, 5 + 4 * bands, 50176) 
+# CI를 d_models feature dimension으로 embedd한 것
 Embedded Input(EI) = (B, d_models, 50176) 
 
 # 학습되는 latent vector가 B만큼 expand된 것

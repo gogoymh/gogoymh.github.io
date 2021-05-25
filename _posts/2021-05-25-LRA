@@ -13,4 +13,14 @@ use_math: true
 ## Reference
 1. Yi Tay, Mostafa Dehghani, Samira Abnar, Yikang Shen, Dara Bahri, Philip Pham, Jinfeng Rao, Liu Yang, Sebastian Ruder, Donald Metzler\\
    Long Range Arena: A Benchmark for Efficient Transformers\\
-   
+   [https://arxiv.org/abs/2011.04006](https://arxiv.org/abs/2011.04006)
+
+---
+<script src="https://utteranc.es/client.js"
+        repo="gogoymh/gogoymh.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>

@@ -24,6 +24,6 @@ title: About
   <ul>
     <li>딥러닝 연구자</li>
     <li>개발자</li>
-    <li>유튜버</li>
+    <li>유튜브</li>
   </ul>
 </div>

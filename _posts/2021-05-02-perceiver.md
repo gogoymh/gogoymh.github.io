@@ -18,7 +18,8 @@ use_math: true
 * Cross-attention과 Self-attention을 RNN처럼\\
   weight sharing을 사용하여 iterative하게 진행해준다.\\
   이 과정을 통해 input이 반복적으로 여러번 입력된다.
-* Position Encoding은 fourier encoding을 사용하되 frequency band의 길이를 parameterize한다.\\
+* Position Encoding은 fourier encoding을 사용하되\\
+  frequency band의 길이를 parameterize한다.\\
   $[-1,1]$ 사이의 순차적인 값을 가진 raw position value $x_d$를 얻고,\\
   frequency value $f_k$를 얻어서,
   $[sin(f_k \pi x_d), cos(f_k \pi x_d)]$의 수식을 얻는다.\\

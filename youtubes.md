@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Youtube
+title: Youtubes
 ---
 <div class="youtube-container">
   <ul class="youtube">

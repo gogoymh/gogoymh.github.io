@@ -707,6 +707,111 @@ a.pagination-item:hover {
     }
 }
 
+
+/*youtube*/
+.youtube{
+  list-style: none;
+}
+.youtube-container {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+  color: black;
+}
+
+
+  .youtube > li {
+      margin-bottom: 20px;
+      position: relative;
+  }
+
+    
+
+      .youtube > li > .youtube-panel {
+          width: 120%;
+          float: left;
+          border: 1px solid #d4d4d4;
+          border-radius: 2px;
+          padding: 20px;
+          position: relative;
+          -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+          border-radius: 10px;
+          margin-bottom: 30px;
+      }
+
+.youtube-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+.youtube-date{
+  font-size: 0.8rem;
+}
+.youtube-info{
+  text-align: right;
+}
+.youtube-img{
+  border-radius: 9px;
+  width: 40%;
+  margin: 0px 20px 0px 0px;
+  float: left;
+}
+.youtube-location,
+.youtube-team{
+  color: rgb(90, 90, 90);
+  font-size: 0.7rem;
+}
+.youtube-body > p,
+.youtube-body > ul {
+  margin-bottom: 0;
+}
+.youtube-panel{
+  background-color: white;
+}
+  .youtube-body > p + p {
+      margin-top: 5px;
+  }
+
+@media (max-width: 767px) {
+  ul.youtube:before {
+      left: 5%;
+  }
+
+  ul.youtube > li > .youtube-panel {
+      width: calc(100% - 90px);
+      width: -moz-calc(100% - 90px);
+      width: -webkit-calc(100% - 90px);
+  }
+  ul.youtube > li > .youtube-panel {
+      float: right;
+      width: 95%;
+  }
+
+      ul.youtube > li > .youtube-panel:before {
+          border-left-width: 0;
+          border-right-width: 15px;
+          left: -15px;
+          right: auto;
+      }
+
+      ul.youtube > li > .youtube-panel:after {
+          border-left-width: 0;
+          border-right-width: 14px;
+          left: -14px;
+          right: auto;
+      }
+    .youtube-img{
+      border-radius: 9px;
+      width: 100%;
+      margin: 0px 0px 20px 0px;
+      float: left;
+    }
+}
+
+
+
+
 /*post book review*/
 .book-info{
   float: right;

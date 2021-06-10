@@ -12,7 +12,7 @@ permalink:           pretty
 #relative_permalinks: true
 collections:
   achieves:
-  books:
+  youtubes:
 # Setup
 title:               딥이데아
 tagline:             'Deep Idea'

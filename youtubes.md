@@ -10,7 +10,7 @@ title: Youtubes
     <li class="youtube-item">
       <div class="youtube-panel">
         <div class ="youtube-heading">
-        <div><img src="{{ youtube.thumbnail }}" class="youtube-img"></div>
+        <div><a href="{{youtube.link}}" target="_blank"><img src="{{ youtube.thumbnail }}" class="youtube-img"></div>
           <h3 href="{{ post_url }}" class="youtube-title">{{ youtube.title }}</h3>
           <p class="youtube-date">{{ youtube_date }}</p>
         </div>

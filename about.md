@@ -5,6 +5,7 @@ title: About
 
 <p class="message">
   Welcome to my blog!
+  I mainly write about AI papers.
 </p>
 
 

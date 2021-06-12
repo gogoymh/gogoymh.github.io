@@ -7,6 +7,10 @@ tags:
 - 논문리뷰
 ---
 
+## 프레임워크
+> [![framework](/../public/images/posts/Cross-framework.JPG)](/../public/images/posts/Cross-framework.JPG)
+  FNet encoder architecture
+
 ## 작성중
 
 

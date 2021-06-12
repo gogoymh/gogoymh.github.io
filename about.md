@@ -22,7 +22,7 @@ title: About
 <div>
   <h1>Features</h1>
   <ul>
-    <li>딥러닝 연구자 Research on Deep Learning</li>
+    <li>인공지능 연구자 AI Researcher</li>
     <li>개발자 Programmer</li>
     <li>유튜브 Youtube</li>
   </ul>

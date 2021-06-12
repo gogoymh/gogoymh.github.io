@@ -9,7 +9,7 @@ tags:
 
 ## 프레임워크
 > [![framework](/../public/images/posts/Cross-framework.JPG)](/../public/images/posts/Cross-framework.JPG)
-  FNet encoder architecture
+  Framework of cross pseudo supervision
 
 ## 작성중
 

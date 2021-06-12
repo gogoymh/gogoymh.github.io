@@ -2,6 +2,9 @@
 layout: post
 title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 use_math: true
+tags:
+- 딥러닝
+- 논문리뷰
 ---
 
 ## 아키텍쳐

@@ -17,7 +17,7 @@ tags:
   각 예측값을 교차하여 서로 다른 모델의 수도 레이블로 보아 학습한다.</span>
 * loss는 다음과 같다.\\
   $\mathcal{L} = \mathcal{L}\_{s} + \lambda \mathcal{L}\_{cps}$\\
-  supervised loss $\mathcal{L}\_s$와 cross pseudo supervised loss로 구성된다.
+  supervised loss $\mathcal{L}\_s$와 cross pseudo supervised loss $\mathcal{L}\_{cps}$의 합으로 구성된다.
   
 
 ## 작성중

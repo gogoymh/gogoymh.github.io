@@ -22,8 +22,8 @@ tags:
   $\mathcal{L}\_{cps} = \mathcal{L}\_{cps}^{l} + \mathcal{L}\_{cps}^{u}$이다.
   
 * Semi supervised learning을 위해 두 모델을 이용하거나 Stop gradient을 이용한 비슷한 연구와 비교하였는데,\\
-> [![compare](/../public/images/posts/Cross-compare.PNG)](/../public/images/posts/Cross-framework.PNG)
-  Comparison with related work.
+> [![compare](/../public/images/posts/Cross-compare.PNG)](/../public/images/posts/Cross-compare.PNG)
+  Comparison with related work
   
   이 중 (c) student와 teacher를 활용하여 teacher를 student의 average로 업데이트하는 방식보다 더 잘 된다는 것이 놀라웠다.
   왜냐하면 보통 weight averaging을 통해 학습하는 것이 좀 더 general한 결과를 만들기 때문에

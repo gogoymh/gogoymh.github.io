@@ -30,7 +30,7 @@ tags:
   왜냐하면 보통 weight averaging을 통해 학습하는 것이 좀 더 general한 결과를 만들기 때문에
   퍼포먼스 향상이 꽤 보장된다.(궁금하다면 Stochastic Weight Averaging에 대해 검색해보길 추천한다.)\\
   그런데 이런 average 방식 없이 훨씬 간단하게 두 모델의 아웃풋을 cross하여 label로 SGD 하는 것이 더 나은 결과를 만들었다는 점이 인상적이다.
-  하이퍼파라미터도 추가되는 것 없이 다른 semi-supervised setup에서도 사용되는 loss 사이의 가중치($\lambda$)만 있기 때문에 여러 데이터셋에 안정적으로 적용하기 쉽다.
+  하이퍼파라미터도 추가되는 것 없이 다른 semi-supervised setup에서도 사용되는 loss 사이의 가중치($\lambda$)만 있기 때문에 여러 도메인에 안정적으로 적용하기 쉽다.
   
 
 ## 작성중

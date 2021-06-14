@@ -28,7 +28,7 @@ tags:
   이 중 (c) student와 teacher를 활용하여 teacher를 student의 average로 업데이트하는 방식보다 더 잘 된다는 것이 놀라웠다.
   왜냐하면 보통 weight averaging을 통해 학습하는 것이 좀 더 general한 결과를 만들기 때문에
   regularization으로 인한 퍼포먼스 향상이 꽤 보장된다.\\
-  그런데 이런 average 방식 없이 SGD만으로 더 나은 결과를 만들었다는 점이 인상적이었다.
+  그런데 이런 average 방식 없이 cross하여 label을 만들어 SGD 하는 것이 더 나은 결과를 만들었다는 점이 인상적이었다.
   
 
 ## 작성중

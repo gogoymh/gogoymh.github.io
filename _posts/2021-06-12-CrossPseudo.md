@@ -21,7 +21,7 @@ tags:
   Cross pseudo supervision는 unlabeled 뿐만아니라 labeled 데이터에 대해서도 수행하기 때문에 loss는
   $\mathcal{L}\_{cps} = \mathcal{L}\_{cps}^{l} + \mathcal{L}\_{cps}^{u}$이다.
   
-* Semi supervised learning을 위해 두 모델을 이용하거나 Stop gradient을 이용한 비슷한 연구와 비교하였는데,\\
+* Semi supervised learning을 위해 두 모델을 이용하거나 Stop gradient(//)을 이용한 비슷한 연구와 비교하였는데,\\
 > [![compare](/../public/images/posts/Cross-compare.PNG)](/../public/images/posts/Cross-compare.PNG)
   Comparison with related work
   

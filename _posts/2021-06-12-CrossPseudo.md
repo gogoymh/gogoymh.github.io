@@ -23,7 +23,7 @@ tags:
   
 * Semi supervised learning을 위해\\
   두 개의 모델을 이용하거나 Stop gradient(//)을 이용한 비슷한 연구와 비교하였다.\\
-> [![compare](/../public/images/posts/Cross-compare.PNG)](/../public/images/posts/Cross-compare.PNG)
+> [![compare](/../public/images/posts/Cross-compare2.PNG)](/../public/images/posts/Cross-compare2.PNG)
   Comparison with related work
   
   이 중 (c) student와 teacher를 활용하여 teacher를 student의 average로 업데이트하는 방식보다 더 잘 된다는 것이 놀라웠다.\\

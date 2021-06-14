@@ -14,13 +14,21 @@ tags:
 ## 방법
 * 레이블이 있는 데이터는 supervised setup으로 학습하고\\
   <span class="highlight-yellow">레이블이 없는 데이터는 한 데이터를 두 개의 모델에 통과시키고\\
-  각 예측값을 교차하여 서로 다른 모델의 수도 레이블로 보아 학습한다.</span>
+  각 예측값을 교차하여 stop gradient를 통해 서로 다른 모델의 수도 레이블로 간주하여 학습한다.</span>
 * loss는 다음과 같다.\\
   $\mathcal{L} = \mathcal{L}\_{s} + \lambda \mathcal{L}\_{cps}$\\
   supervised loss $\mathcal{L}\_s$와 cross pseudo supervised loss $\mathcal{L}\_{cps}$의 합으로 구성된다.\\
   Cross pseudo supervision는 unlabeled 뿐만아니라 labeled 데이터에 대해서도 수행하기 때문에 loss는
   $\mathcal{L}\_{cps} = \mathcal{L}\_{cps}^{l} + \mathcal{L}\_{cps}^{u}$이다.
   
+* Semi supervised learning을 위해 두 모델을 이용하거나 Stop gradient을 이용한 비슷한 연구와 비교하였는데,\\
+> [![compare](/../public/images/posts/Cross-compare.PNG)](/../public/images/posts/Cross-framework.PNG)
+  Comparison with related work.
+  
+  이 중 (c) student와 teacher를 활용하여 teacher를 student의 average로 업데이트하는 방식보다 더 잘 된다는 것이 놀라웠다.
+  왜냐하면 보통 weight averaging을 통해 학습하는 것이 좀 더 general한 결과를 만들기 때문에
+  regularization으로 인한 퍼포먼스 향상이 꽤 보장되다 싶이하다.\\
+  그런데 이런 average 방식 없이 SGD만으로 더 나은 결과를 만들었다는 점이 인상적이었다.
   
 
 ## 작성중

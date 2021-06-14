@@ -17,8 +17,8 @@ tags:
   각 예측값을 교차하여 서로 다른 모델의 수도 레이블로 보아 학습한다.</span>
 * loss는 다음과 같다.\\
   $\mathcal{L} = \mathcal{L}\_{s} + \lambda \mathcal{L}\_{cps}$\\
-  supervision loss $\mathcal{L}\_s$와 cross pseudo supervision(CPS) loss $\mathcal{L}\_{cps}$의 합으로 구성된다.\\
-  CPS는 unlabeled 뿐만아니라 labeled 데이터에 대해서도 수행하기 때문에 loss는 다음과 같다.\\
+  supervision loss $\mathcal{L}\_s$와 cross pseudo supervision loss $\mathcal{L}\_{cps}$의 합으로 구성된다.\\
+  Cross pseudo supervision는 unlabeled 뿐만아니라 labeled 데이터에 대해서도 수행하기 때문에 loss는 다음과 같다.\\
   $\mathcal{L}\_{cps} = \mathcal{L}\_{cps}^{l} + \mathcal{L}\_{cps}^{u}$
   
   

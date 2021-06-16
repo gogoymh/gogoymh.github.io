@@ -32,8 +32,11 @@ tags:
   그런데 이런 average 방식 없이 훨씬 간단하게 두 모델의 아웃풋을 cross하여 label로 SGD 하는 것이 더 나은 결과를 만들었다는 점이 인상적이다.
   하이퍼파라미터도 추가되는 것 없이 다른 semi-supervised setup에서도 사용되는 loss 사이의 가중치($\lambda$)만 있기 때문에 여러 도메인에 안정적으로 적용하기 쉽다.
   
+## 결과
+> [![result](/../public/images/posts/Cross-result.PNG)](/../public/images/posts/Cross-result.PNG)
 
-## 작성중
+* PASCAL VOC 2012 val과 Cityscapes val에서 모두 SOTA를 달성하였다.
+* CutMix를 결합하여 정확도를 조금 더 끌어올렸다.
 
 ---
 

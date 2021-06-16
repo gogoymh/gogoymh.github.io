@@ -14,7 +14,7 @@ tags:
 ## 방법
 * 레이블이 있는 데이터는 supervised setup으로 학습하고\\
   <span class="highlight-yellow">레이블이 없는 데이터는 한 데이터를 두 개의 모델에 통과시키고\\
-  각 예측값을 교차하여 stop gradient를 통해 서로 다른 모델의 수도 레이블로 간주하여 학습한다.</span>
+  각 예측값을 교차하여 stop gradient를 해주고 서로 다른 모델의 수도 레이블로 간주하여 학습한다.</span>
 * loss는 다음과 같다.\\
   $\mathcal{L} = \mathcal{L}\_{s} + \lambda \mathcal{L}\_{cps}$\\
   supervised loss $\mathcal{L}\_s$와 cross pseudo supervised loss $\mathcal{L}\_{cps}$의 합으로 구성된다.\\

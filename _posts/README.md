@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
+title: "[논문리뷰] 논문 제목"
 use_math: true
 tags:
 - 딥러닝
 - 논문리뷰
-date:   2016-03-14 12:00:00 
-lastmod : 2016-03-15 12:00:00
+date:   2022-04-04 12:00:00 
+lastmod : 2022-04-04 12:00:00
 sitemap :
   changefreq : daily
   priority : 1.0

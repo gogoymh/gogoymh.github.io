@@ -11,7 +11,7 @@ incremental: false
 permalink:           pretty
 #relative_permalinks: true
 collections:
-  achieves:
+  #achieves:
   youtubes:
 # Setup
 title:               딥이데아

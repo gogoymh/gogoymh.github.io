@@ -5,6 +5,11 @@ use_math: true
 tags:
 - 딥러닝
 - 논문리뷰
+date:   2021-06-12 12:00:00 
+lastmod : 2022-06-12 12:00:00
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 ## 프레임워크

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blank #page
 title: Achieves
 ---
 <div class="achieve-container">

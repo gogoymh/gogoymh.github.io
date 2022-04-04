@@ -1,5 +1,6 @@
----
-layout: post
+#### 작성 포맷 ####
+----
+#layout: post
 title: "[논문리뷰] Perceiver: General Perception with Iterative Attention"
 use_math: true
 tags:
@@ -10,4 +11,4 @@ lastmod : 2016-03-15 12:00:00
 sitemap :
   changefreq : daily
   priority : 1.0
----
+----

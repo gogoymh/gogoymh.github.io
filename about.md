@@ -23,7 +23,7 @@ title: About
   </div>
 </div>
 <div>
-  <h1>활동</h1>
+  <h1>What I do</h1>
   <ul>
     <li>인공지능 연구자 AI Researcher</li>
     <li>개발자 Programmer</li>

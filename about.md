@@ -6,6 +6,8 @@ title: About
 <p class="message">
   블로그에 오신 것을 환영합니다!
   <br>유명하지 않아도 제 마음에 드는 인공지능 논문을 리뷰해보려고 합니다.
+  <br>Welcome to my blog!
+  <br>I post reviews about AI paper that I like.
 </p>
 
 

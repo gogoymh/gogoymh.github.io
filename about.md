@@ -4,8 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Welcome to my blog!
-  I mainly write about AI papers here.
+  블로그에 오신 것을 환영합니다! 유명하지는 않아도 제 맘에 드는 인공지능 논문을 리뷰해보려고 합니다. 
 </p>
 
 
@@ -21,7 +20,7 @@ title: About
   </div>
 </div>
 <div>
-  <h1>Features</h1>
+  <h1>나는 누구인가</h1>
   <ul>
     <li>인공지능 연구자 AI Researcher</li>
     <li>개발자 Programmer</li>

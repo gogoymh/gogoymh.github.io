@@ -31,4 +31,12 @@ title: About
     <li><a href="/../public/files/resume_eng.pdf">이력서 Resume</a></li>
     <li><a href="/../public/files/전공소개서_CV.pdf">전공소개서 Portfolio</a></li>
   </ul>
+  <h1>Interests</h1>
+  <ul>
+    <li>Semantic Segmentation</li>
+    <li>Semi/Self-Supervised Learning</li>
+    <li>Federated Learning</li>
+    <li>Long Range Dependency Learning</li>
+    <li>Alternatives for Neural Network</li>
+  </ul>
 </div>

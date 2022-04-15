@@ -33,6 +33,7 @@ title: About
   </ul>
   <h1>Interests</h1>
   <ul>
+    <li>Computer Vision</li>
     <li>Semantic Segmentation</li>
     <li>Semi/Self-Supervised Learning</li>
     <li>Federated Learning</li>

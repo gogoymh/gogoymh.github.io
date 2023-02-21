@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title | escape }}</h1>
+  <span class="post-date">{{ page.date | date: "%Y년 %m월 %d일" }}</span>
+  {% include post_tags.html %}
+  <br/>
+  {{ content }}
+</div>
+
+<div class="related">
+  <h2>Recent Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:5 %}
+      <li>
+        <h3>
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title | escape }}
+            <small>{{ post.date | date: "%Y년 %m월 %d일" }}</small>
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

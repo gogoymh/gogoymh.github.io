@@ -1,0 +1,37 @@
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+collections:
+  # achieves:
+  youtubes:
+# Setup
+title:               딥이데아
+tagline:             'Deep Idea'
+description:         'Made by <a href="https://github.com/gogoymh" target="_blank" style="font-size=0.75rem;">@gogoymh</a>.<br />딥이데아'
+github-url:           http://github.com/gogoymh
+baseurl:             ''
+plugins:             [jekyll-paginate]
+paginate:            5
+regenerate :         true
+linkedin-url:        https://www.linkedin.com/in/gogoymh/
+
+# About/contact
+author:
+  name:              gogoymh
+  url:               
+  email:             12ymh12@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+# Highlighter
+highlighter: rouge

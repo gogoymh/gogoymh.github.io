@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[매매일지] 2023-02-25 주식 매매 일지"
+title: "[매매일지] 2023-02-24 주식 매매 일지"
 use_math: true
 tags:
 - 매매일지

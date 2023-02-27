@@ -35,3 +35,6 @@ version:             1.0.0
 
 # Highlighter
 highlighter: rouge
+
+# 시간대 안 맞을 수 있으니 미래의 게시물 포스팅 허용
+future: true

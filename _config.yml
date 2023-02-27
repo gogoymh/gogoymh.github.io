@@ -35,3 +35,6 @@ version:             1.0.0
 
 # Highlighter
 highlighter: rouge
+
+# Not positng error fix
+futrue: true

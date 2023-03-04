@@ -23,7 +23,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 ## 매매 기록
 1. 폴라리스오피스(041020) \
-> [![chart1](/../public/images/posts/2023-03-05/041020.png)](/../public/images/posts/2023-03-05/041020.png)
+> [![chart1](/../public/images/posts/2023-03-03/041020.PNG)](/../public/images/posts/2023-03-03/041020.PNG)
    매수: 1986원 \
    매도: 2025원 \
    수익률: 1.95% \
@@ -32,7 +32,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 
 2. 피코그램(376180) \
-> [![chart2](/../public/images/posts/2023-03-05/376180.png)](/../public/images/posts/2023-03-05/376180.png)
+> [![chart2](/../public/images/posts/2023-03-03/376180.PNG)](/../public/images/posts/2023-03-03/376180.PNG)
    매수: 9107원 \
    매도: 9280원 \
    수익률: 1.89% \
@@ -41,7 +41,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 
 3. 앤씨앤(092600) \
-> [![chart3](/../public/images/posts/2023-03-05/092600.png)](/../public/images/posts/2023-03-05/092600.png)
+> [![chart3](/../public/images/posts/2023-03-03/092600.PNG)](/../public/images/posts/2023-03-03/092600.PNG)
    매수: 1831원 \
    매도: 1865원 \
    수익률: 1.84% \
@@ -50,7 +50,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 
 4. 알에프세미(096610) \
-> [![chart4](/../public/images/posts/2023-03-05/096610.png)](/../public/images/posts/2023-03-05/096610.png)
+> [![chart4](/../public/images/posts/2023-03-03/096610.PNG)](/../public/images/posts/2023-03-03/096610.PNG)
    매수: 3570원 \
    매도: 3640원 \
    수익률: 1.95% \
@@ -59,7 +59,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 
 5. 알로이스(297570) \
-> [![chart5](/../public/images/posts/2023-03-05/297570.png)](/../public/images/posts/2023-03-05/297570.png)
+> [![chart5](/../public/images/posts/2023-03-03/297570.PNG)](/../public/images/posts/2023-03-03/297570.PNG)
    매수: 1775원 \
    매도: 1810원 \
    수익률: 1.96% \

@@ -7,8 +7,8 @@ tags:
 - 코스피
 - 코스닥
 - 한국주식
-date: 2023-03-03 18:15:11
-lastmod: 2023-03-03 18:15:11
+date: 2023-03-03 18:10:11
+lastmod: 2023-03-03 18:10:11
 sitemap:
   changefreq: daily
   priority: 1.0
@@ -23,6 +23,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 ## 매매 기록
 1. 폴라리스오피스(041020) \
+> [![chart1](/../public/images/posts/2023-03-05/041020.png)](/../public/images/posts/2023-03-05/041020.png)
    매수: 1986원 \
    매도: 2025원 \
    수익률: 1.95% \
@@ -31,6 +32,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 
 2. 피코그램(376180) \
+> [![chart2](/../public/images/posts/2023-03-05/376180.png)](/../public/images/posts/2023-03-05/376180.png)
    매수: 9107원 \
    매도: 9280원 \
    수익률: 1.89% \
@@ -39,6 +41,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 
 3. 앤씨앤(092600) \
+> [![chart3](/../public/images/posts/2023-03-05/092600.png)](/../public/images/posts/2023-03-05/092600.png)
    매수: 1831원 \
    매도: 1865원 \
    수익률: 1.84% \
@@ -47,6 +50,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 
 4. 알에프세미(096610) \
+> [![chart4](/../public/images/posts/2023-03-05/096610.png)](/../public/images/posts/2023-03-05/096610.png)
    매수: 3570원 \
    매도: 3640원 \
    수익률: 1.95% \
@@ -55,6 +59,7 @@ This trading log is for personal record-keeping purposes only and the responsibi
 
 
 5. 알로이스(297570) \
+> [![chart5](/../public/images/posts/2023-03-05/297570.png)](/../public/images/posts/2023-03-05/297570.png)
    매수: 1775원 \
    매도: 1810원 \
    수익률: 1.96% \

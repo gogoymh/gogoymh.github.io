@@ -29,7 +29,7 @@ title: About
     <li>인공지능 연구자 AI Researcher</li>
     <li>개발자 Programmer</li>
     <li><a href="https://www.youtube.com/channel/UChFclG5hzKK-KUCNOj1NhJw">유튜브 Youtube</a></li>
-    <li><a href="/../public/files/resume_re.pdf">이력서 Resume</a></li>
+    <li><a href="/../public/files/Resume_240130.pdf">이력서 Resume</a></li>
     <li>주식 자동 매매</li>
     <li>블로그 자동 포스팅</li>
     <!-- <li><a href="/../public/files/전공소개서_CV.pdf">전공소개서 Portfolio</a></li> -->
